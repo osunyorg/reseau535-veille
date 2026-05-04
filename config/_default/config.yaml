@@ -7,7 +7,7 @@ params:
     active: true
   logo:
     header: '/assets/images/logo.png'
-    footer: ''
+    footer: '/assets/images/logo.png'
   home:
     head:
       title: site
