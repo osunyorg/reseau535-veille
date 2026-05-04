@@ -6,8 +6,11 @@ params:
   search:
     active: true
   logo:
-    header: ''
+    header: '/assets/images/logo.png'
     footer: ''
   home:
     head:
       title: site
+  organizations:
+    single:
+      backlinks: true
