@@ -1,15 +1,15 @@
 ---
 title: Menu principal
 items:
-- title: Agenda
-  slug: agenda
-  target: "/agenda/"
+- title: Spectacles
+  slug: spectacles
+  target: "/spectacles/"
   kind: page
   new_tab: false
   children: []
   descendants_targets: []
-  path: "/events"
-  file: content/fr/events/_index.html
+  path: "/projects"
+  file: content/fr/projects/_index.html
 - title: Organisations
   slug: organisations
   target: "/organisations/"
