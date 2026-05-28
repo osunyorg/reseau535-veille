@@ -15,7 +15,7 @@ meta:
     slug: "brady"
   dates:
     created_at: 2026-05-28T12:12:12+02:00
-    updated_at: 2026-05-28T12:19:10+02:00
+    updated_at: 2026-05-28T12:21:35+02:00
     published_at: 2026-05-28T12:12:12+02:00
 search:
   id: "0de1b7f4-d00e-4232-b102-2382fc6caa97"
@@ -27,7 +27,7 @@ search:
     Brady
 
   body: >-
-    <p>Création </p>  <p> Soutiens </p>  <p> Étapes </p>  <p>21/11/2024 — Première</p>
+    <p>Création </p>  <p> Étapes </p>  <p>21/11/2024 — Première</p>  <p> Informations </p>  <p> Fichiers  <br>Dossier</p>  <p>Fiche technique</p>  <p> Soutiens </p>
 
 breadcrumbs:
   - title: >-
@@ -61,7 +61,7 @@ year: 2025
 date: 2025
 
 contents_reading_time:
-  seconds: 2
+  seconds: 4
   text: >-
     moins d'une minute
 contents:
@@ -97,42 +97,6 @@ contents:
           path: "/organizations/a-t-l-a-t-l"
           slug: "a-t-l-a-t-l"
           file: "content/fr/organizations/a-t-l-a-t-l.html"
-
-      quantity: 1
-
-
-  - kind: block
-    template: organizations
-    title: >-
-      Soutiens
-    slug: >-
-      soutiens
-    ranks:
-      base: 2
-      self: 2
-      children: 3
-    top:
-      active: true
-      title: 
-        value: >-
-          Soutiens
-        heading: 2
-
-    data:
-      layout: grid
-
-      options:
-        link: true
-        logo: true
-        summary: false
-        address: false
-        filters: false
-
-      organizations:
-        - permalink: "/organisations/theatre-du-cloitre/"
-          path: "/organizations/theatre-du-cloitre"
-          slug: "theatre-du-cloitre"
-          file: "content/fr/organizations/theatre-du-cloitre.html"
 
       quantity: 1
 
@@ -186,19 +150,99 @@ contents:
 
   - kind: block
     template: datatable
-
-
+    title: >-
+      Informations
+    slug: >-
+      informations
     ranks:
       base: 2
+      self: 2
     top:
-      active: false
+      active: true
+      title: 
+        value: >-
+          Informations
+        heading: 2
 
     data:
 
       columns:
-        - ""
+        - "Âge minimum"
+        - "Durée (en minutes)"
       rows:
+        - ["15 ans","0"]
 
+
+
+  - kind: block
+    template: files
+    title: >-
+      Fichiers
+    slug: >-
+      fichiers
+    ranks:
+      base: 2
+      self: 2
+    top:
+      active: true
+      title: 
+        value: >-
+          Fichiers
+        heading: 2
+
+    data:
+
+      files:
+        -
+          id: "d953cf61-fb4a-46dc-b777-c2b8114b448e"
+          title: >-
+            Dossier
+          file:
+            id: "d953cf61-fb4a-46dc-b777-c2b8114b448e"
+
+        -
+          id: "c36a4492-eaf0-4627-8f73-fcc5df34d27e"
+          title: >-
+            Fiche technique
+          file:
+            id: "c36a4492-eaf0-4627-8f73-fcc5df34d27e"
+
+
+
+  - kind: block
+    template: organizations
+    title: >-
+      Soutiens
+    slug: >-
+      soutiens
+    ranks:
+      base: 2
+      self: 2
+      children: 3
+    top:
+      active: true
+      title: 
+        value: >-
+          Soutiens
+        heading: 2
+
+    data:
+      layout: grid
+
+      options:
+        link: true
+        logo: true
+        summary: false
+        address: true
+        filters: false
+
+      organizations:
+        - permalink: "/organisations/theatre-du-cloitre/"
+          path: "/organizations/theatre-du-cloitre"
+          slug: "theatre-du-cloitre"
+          file: "content/fr/organizations/theatre-du-cloitre.html"
+
+      quantity: 1
 
 
 
