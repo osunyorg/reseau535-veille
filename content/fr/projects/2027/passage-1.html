@@ -16,8 +16,8 @@ meta:
     slug: "passage-1"
   dates:
     created_at: 2026-06-08T13:15:19+02:00
-    updated_at: 2026-06-08T13:15:19+02:00
-    published_at: 2026-06-08T13:15:19+02:00
+    updated_at: 2026-06-08T14:38:14+02:00
+    published_at: 2026-06-08T14:38:14+02:00
 search:
   id: "cb2fb4dc-7fc8-4011-867e-2c7bfe48d234"
   about_id: "ce434366-1342-4938-8300-8fe294342d75"
@@ -29,7 +29,7 @@ search:
   summary: >-
     <p>Passage repose sur une approche multidisciplinaire mêlant danse verticale, danse sur roller, et cirque. Les disciplines artistiques mobilisées incarnent les quatre éléments naturels : l'air, la terre, l'eau, le feu</p>
   body: >-
-    <p>Création </p>  <p> Étapes </p>  <p> Informations </p>  <p> Soutiens </p>
+    <p>Création </p>  <p> Étapes </p>  <p> Informations </p>  <p> Soutiens </p>  <p> Vie du spectacle  <br> Vie du spectacle </p>  <p> Lieux </p>  <p> Opérateurs </p>
 
 breadcrumbs:
   - title: >-
@@ -60,7 +60,7 @@ year: 2027
 date: 2027
 
 contents_reading_time:
-  seconds: 1
+  seconds: 4
   text: >-
     moins d'une minute
 contents:
@@ -200,6 +200,139 @@ contents:
           file: "content/fr/organizations/cdc-la-rochefoucauld-portes-du-perigord.html"
 
       quantity: 3
+
+
+  - kind: block
+    template: title
+    title: >-
+      Vie du spectacle
+    slug: >-
+      vie-du-spectacle
+    ranks:
+      base: 2
+      self: 2
+    top:
+      active: true
+      title: 
+        value: >-
+          Vie du spectacle
+        heading: 2
+
+    data:
+      layout: classic
+
+
+  - kind: block
+    template: datatable
+    title: >-
+      Vie du spectacle
+    slug: >-
+      vie-du-spectacle
+    ranks:
+      base: 3
+      self: 3
+    top:
+      active: true
+      title: 
+        value: >-
+          Vie du spectacle
+        heading: 3
+
+    data:
+
+      columns:
+        - "Lieu"
+        - "Opérateurs"
+        - "Début"
+        - "Fin"
+        - "État"
+        - "Commentaire"
+      rows:
+        - ["Chapelle Fromentin","CCN Mille Plateaux","2026-04-06","2026-04-10","Résidence","Sortie de résidence le 10 avril 2026 à 15h"]
+        - ["Château de Barbezieux","CDC 4B Sud-Charente","2026-10-16","2026-10-16","Résidence","Sortie de résidence le 16 octobre 2026 à 18h30"]
+
+
+
+  - kind: block
+    template: organizations
+    title: >-
+      Lieux
+    slug: >-
+      lieux
+    ranks:
+      base: 3
+      self: 3
+      children: 4
+    top:
+      active: true
+      title: 
+        value: >-
+          Lieux
+        heading: 3
+
+    data:
+      layout: large
+
+      options:
+        link: true
+        logo: true
+        summary: false
+        address: false
+        filters: false
+
+      organizations:
+        - permalink: "/organisations/chapelle-fromentin/"
+          path: "/organizations/chapelle-fromentin"
+          slug: "chapelle-fromentin"
+          file: "content/fr/organizations/chapelle-fromentin.html"
+
+        - permalink: "/organisations/chateau-de-barbezieux/"
+          path: "/organizations/chateau-de-barbezieux"
+          slug: "chateau-de-barbezieux"
+          file: "content/fr/organizations/chateau-de-barbezieux.html"
+
+      quantity: 2
+
+
+  - kind: block
+    template: organizations
+    title: >-
+      Opérateurs
+    slug: >-
+      operateurs
+    ranks:
+      base: 3
+      self: 3
+      children: 4
+    top:
+      active: true
+      title: 
+        value: >-
+          Opérateurs
+        heading: 3
+
+    data:
+      layout: large
+
+      options:
+        link: true
+        logo: true
+        summary: false
+        address: false
+        filters: false
+
+      organizations:
+        - permalink: "/organisations/ccn-mille-plateaux/"
+          path: "/organizations/ccn-mille-plateaux"
+          slug: "ccn-mille-plateaux"
+          file: "content/fr/organizations/ccn-mille-plateaux.html"
+
+        - permalink: "/organisations/cdc-4b-sud-charente/"
+          path: "/organizations/cdc-4b-sud-charente"
+          slug: "cdc-4b-sud-charente"
+          file: "content/fr/organizations/cdc-4b-sud-charente.html"
+
+      quantity: 2
 
 
 

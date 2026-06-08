@@ -15,8 +15,8 @@ meta:
     slug: "reflet"
   dates:
     created_at: 2026-06-08T13:15:20+02:00
-    updated_at: 2026-06-08T13:15:20+02:00
-    published_at: 2026-06-08T13:15:20+02:00
+    updated_at: 2026-06-08T14:38:15+02:00
+    published_at: 2026-06-08T14:38:14+02:00
 search:
   id: "4f58f558-15c9-420d-94ed-e83becb98f20"
   about_id: "1bfaf4c6-7a92-4ad4-a3de-96a2f805d6fa"
@@ -28,7 +28,7 @@ search:
   summary: >-
     <p>En apesanteur sur ses rollers, Xuan LE, champion de freestyle slalom, nous emporte dans un flux d’énergie intense et méditatif, nous interrogeant sur nos origines et sur la relation que nous tissons avec le mouvement dans la vie.</p>
   body: >-
-    <p>Création </p>  <p> Étapes </p>  <p> Informations </p>
+    <p>Création </p>  <p> Étapes </p>  <p> Informations </p>  <p> Vie du spectacle  <br> Vie du spectacle </p>  <p> Lieux </p>  <p> Opérateurs </p>
 
 breadcrumbs:
   - title: >-
@@ -59,7 +59,7 @@ year: 2023
 date: 2023
 
 contents_reading_time:
-  seconds: 1
+  seconds: 3
   text: >-
     moins d'une minute
 contents:
@@ -155,6 +155,150 @@ contents:
         - ["Âge minimum","8 ans"]
         - ["Durée","50 minutes"]
 
+
+
+  - kind: block
+    template: title
+    title: >-
+      Vie du spectacle
+    slug: >-
+      vie-du-spectacle
+    ranks:
+      base: 2
+      self: 2
+    top:
+      active: true
+      title: 
+        value: >-
+          Vie du spectacle
+        heading: 2
+
+    data:
+      layout: classic
+
+
+  - kind: block
+    template: datatable
+    title: >-
+      Vie du spectacle
+    slug: >-
+      vie-du-spectacle
+    ranks:
+      base: 3
+      self: 3
+    top:
+      active: true
+      title: 
+        value: >-
+          Vie du spectacle
+        heading: 3
+
+    data:
+
+      columns:
+        - "Lieu"
+        - "Opérateurs"
+        - "Début"
+        - "Fin"
+        - "État"
+        - "Commentaire"
+      rows:
+        - ["Esplanade de la Mer","CDC Île de Ré\n","2024-05-09","2024-05-10","Diffusion","16h"]
+        - ["Les Carmes (16)","CDC la Rochefoucauld-Portes-du-Périgord","2023-10-20","2023-10-20","Première","20h"]
+        - ["Château de Barbezieux","CDC 4B Sud-Charente","2025-03-28","2025-03-28","Diffusion","20h30"]
+
+
+
+  - kind: block
+    template: organizations
+    title: >-
+      Lieux
+    slug: >-
+      lieux
+    ranks:
+      base: 3
+      self: 3
+      children: 4
+    top:
+      active: true
+      title: 
+        value: >-
+          Lieux
+        heading: 3
+
+    data:
+      layout: large
+
+      options:
+        link: true
+        logo: true
+        summary: false
+        address: false
+        filters: false
+
+      organizations:
+        - permalink: ""
+          path: "/organizations/esplanade-de-la-mer"
+          slug: "esplanade-de-la-mer"
+          file: "content/fr/organizations/esplanade-de-la-mer.html"
+
+        - permalink: ""
+          path: "/organizations/les-carmes-16"
+          slug: "les-carmes-16"
+          file: "content/fr/organizations/les-carmes-16.html"
+
+        - permalink: "/organisations/chateau-de-barbezieux/"
+          path: "/organizations/chateau-de-barbezieux"
+          slug: "chateau-de-barbezieux"
+          file: "content/fr/organizations/chateau-de-barbezieux.html"
+
+      quantity: 3
+
+
+  - kind: block
+    template: organizations
+    title: >-
+      Opérateurs
+    slug: >-
+      operateurs
+    ranks:
+      base: 3
+      self: 3
+      children: 4
+    top:
+      active: true
+      title: 
+        value: >-
+          Opérateurs
+        heading: 3
+
+    data:
+      layout: large
+
+      options:
+        link: true
+        logo: true
+        summary: false
+        address: false
+        filters: false
+
+      organizations:
+        - permalink: ""
+          path: "/organizations/cdc-ile-de-re"
+          slug: "cdc-ile-de-re"
+          file: "content/fr/organizations/cdc-ile-de-re.html"
+
+        - permalink: "/organisations/cdc-la-rochefoucauld-portes-du-perigord/"
+          path: "/organizations/cdc-la-rochefoucauld-portes-du-perigord"
+          slug: "cdc-la-rochefoucauld-portes-du-perigord"
+          file: "content/fr/organizations/cdc-la-rochefoucauld-portes-du-perigord.html"
+
+        - permalink: "/organisations/cdc-4b-sud-charente/"
+          path: "/organizations/cdc-4b-sud-charente"
+          slug: "cdc-4b-sud-charente"
+          file: "content/fr/organizations/cdc-4b-sud-charente.html"
+
+      quantity: 3
 
 
 
