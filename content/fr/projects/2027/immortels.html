@@ -15,8 +15,8 @@ meta:
     slug: "immortels"
   dates:
     created_at: 2026-06-08T13:15:16+02:00
-    updated_at: 2026-06-08T13:15:17+02:00
-    published_at: 2026-06-08T13:15:16+02:00
+    updated_at: 2026-06-08T14:38:13+02:00
+    published_at: 2026-06-08T14:38:13+02:00
 search:
   id: "751c9f5d-b257-4b4a-8e6e-4bc8de7b5ff8"
   about_id: "3f4b7906-9702-4ca6-aab2-1780adebf991"
@@ -28,7 +28,7 @@ search:
   summary: >-
     <p>Une photographe rencontre un homme qui tombe raide mort devant elle, puis renaît le lendemain matin. Pendant un an, cette éternelle renaissance va créer un lien entre les deux personnages</p>
   body: >-
-    <p>Création </p>  <p> Étapes </p>  <p> Informations </p>  <p> Soutiens </p>
+    <p>Création </p>  <p> Étapes </p>  <p> Informations </p>  <p> Soutiens </p>  <p> Vie du spectacle  <br> Vie du spectacle </p>  <p> Lieux </p>  <p> Opérateurs </p>
 
 breadcrumbs:
   - title: >-
@@ -59,7 +59,7 @@ year: 2027
 date: 2027
 
 contents_reading_time:
-  seconds: 1
+  seconds: 4
   text: >-
     moins d'une minute
 contents:
@@ -209,6 +209,128 @@ contents:
           file: "content/fr/organizations/scin-la-megisserie.html"
 
       quantity: 5
+
+
+  - kind: block
+    template: title
+    title: >-
+      Vie du spectacle
+    slug: >-
+      vie-du-spectacle
+    ranks:
+      base: 2
+      self: 2
+    top:
+      active: true
+      title: 
+        value: >-
+          Vie du spectacle
+        heading: 2
+
+    data:
+      layout: classic
+
+
+  - kind: block
+    template: datatable
+    title: >-
+      Vie du spectacle
+    slug: >-
+      vie-du-spectacle
+    ranks:
+      base: 3
+      self: 3
+    top:
+      active: true
+      title: 
+        value: >-
+          Vie du spectacle
+        heading: 3
+
+    data:
+
+      columns:
+        - "Lieu"
+        - "Opérateurs"
+        - "Début"
+        - "Fin"
+        - "État"
+        - "Commentaire"
+      rows:
+        - ["Salle des fêtes","A4\n","2026-04-14","2026-04-26","Résidence","Torxé (17) - Sortie de résidence le 26 avril 2026 à 14"]
+
+
+
+  - kind: block
+    template: organizations
+    title: >-
+      Lieux
+    slug: >-
+      lieux
+    ranks:
+      base: 3
+      self: 3
+      children: 4
+    top:
+      active: true
+      title: 
+        value: >-
+          Lieux
+        heading: 3
+
+    data:
+      layout: large
+
+      options:
+        link: true
+        logo: true
+        summary: false
+        address: false
+        filters: false
+
+      organizations:
+        - permalink: "/organisations/salle-des-fetes/"
+          path: "/organizations/salle-des-fetes"
+          slug: "salle-des-fetes"
+          file: "content/fr/organizations/salle-des-fetes.html"
+
+      quantity: 1
+
+
+  - kind: block
+    template: organizations
+    title: >-
+      Opérateurs
+    slug: >-
+      operateurs
+    ranks:
+      base: 3
+      self: 3
+      children: 4
+    top:
+      active: true
+      title: 
+        value: >-
+          Opérateurs
+        heading: 3
+
+    data:
+      layout: large
+
+      options:
+        link: true
+        logo: true
+        summary: false
+        address: false
+        filters: false
+
+      organizations:
+        - permalink: "/organisations/a4/"
+          path: "/organizations/a4"
+          slug: "a4"
+          file: "content/fr/organizations/a4.html"
+
+      quantity: 1
 
 
 

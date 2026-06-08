@@ -15,8 +15,8 @@ meta:
     slug: "brady-1"
   dates:
     created_at: 2026-06-08T13:11:53+02:00
-    updated_at: 2026-06-08T13:15:14+02:00
-    published_at: 2026-06-08T13:15:13+02:00
+    updated_at: 2026-06-08T14:38:11+02:00
+    published_at: 2026-06-08T14:38:11+02:00
 search:
   id: "2be69cc1-9198-43c6-aa99-85e553d58d2c"
   about_id: "14c13679-70b9-4b69-a8ac-326e1c002b3b"
@@ -28,7 +28,7 @@ search:
   summary: >-
     <p>Spectacle sur le syndrome de la Havane, avec un lévrier !</p>
   body: >-
-    <p>Création </p>  <p> Étapes </p>  <p> Informations </p>  <p> Soutiens </p>
+    <p>Création </p>  <p> Étapes </p>  <p> Informations </p>  <p> Soutiens </p>  <p> Vie du spectacle  <br> Vie du spectacle </p>  <p> Lieux </p>  <p> Opérateurs </p>
 
 breadcrumbs:
   - title: >-
@@ -63,7 +63,7 @@ year: 2025
 date: 2025
 
 contents_reading_time:
-  seconds: 1
+  seconds: 4
   text: >-
     moins d'une minute
 contents:
@@ -209,6 +209,173 @@ contents:
           file: "content/fr/organizations/les-3-theatres-3t.html"
 
       quantity: 4
+
+
+  - kind: block
+    template: title
+    title: >-
+      Vie du spectacle
+    slug: >-
+      vie-du-spectacle
+    ranks:
+      base: 2
+      self: 2
+    top:
+      active: true
+      title: 
+        value: >-
+          Vie du spectacle
+        heading: 2
+
+    data:
+      layout: classic
+
+
+  - kind: block
+    template: datatable
+    title: >-
+      Vie du spectacle
+    slug: >-
+      vie-du-spectacle
+    ranks:
+      base: 3
+      self: 3
+    top:
+      active: true
+      title: 
+        value: >-
+          Vie du spectacle
+        heading: 3
+
+    data:
+
+      columns:
+        - "Lieu"
+        - "Opérateurs"
+        - "Début"
+        - "Fin"
+        - "État"
+        - "Commentaire"
+      rows:
+        - ["Amphithéâtre de la Mégisserie","SCIN La Mégisserie","2024-11-21","2024-11-21","Première","20h30"]
+        - ["SCIN Théâtre du Cloître","SCIN Théâtre du Cloître","2024-02-05","2024-02-09","Résidence",""]
+        - ["Théâtre Blossac\n","Les 3 Théâtres (3T)","2024-01-08","2024-01-12","Résidence",""]
+        - ["Théâtre de Thouars","SCIN S’Il vous Plait","2024-04-15","2024-04-19","Résidence","Sortie de résidence le 19 avril 2024 à 18h30"]
+        - ["MECA\n","OARA","2024-09-16","2024-09-27","Résidence",""]
+        - ["Amphithéâtre de la Mégisserie","SCIN La Mégisserie","2024-09-02","2024-09-06","Résidence",""]
+
+
+
+  - kind: block
+    template: organizations
+    title: >-
+      Lieux
+    slug: >-
+      lieux
+    ranks:
+      base: 3
+      self: 3
+      children: 4
+    top:
+      active: true
+      title: 
+        value: >-
+          Lieux
+        heading: 3
+
+    data:
+      layout: large
+
+      options:
+        link: true
+        logo: true
+        summary: false
+        address: false
+        filters: false
+
+      organizations:
+        - permalink: "/organisations/amphitheatre-de-la-megisserie/"
+          path: "/organizations/amphitheatre-de-la-megisserie"
+          slug: "amphitheatre-de-la-megisserie"
+          file: "content/fr/organizations/amphitheatre-de-la-megisserie.html"
+
+        - permalink: "/organisations/scin-theatre-du-cloitre/"
+          path: "/organizations/scin-theatre-du-cloitre"
+          slug: "scin-theatre-du-cloitre"
+          file: "content/fr/organizations/scin-theatre-du-cloitre.html"
+
+        - permalink: "/organisations/theatre-blossac/"
+          path: "/organizations/theatre-blossac"
+          slug: "theatre-blossac"
+          file: "content/fr/organizations/theatre-blossac.html"
+
+        - permalink: "/organisations/theatre-de-thouars/"
+          path: "/organizations/theatre-de-thouars"
+          slug: "theatre-de-thouars"
+          file: "content/fr/organizations/theatre-de-thouars.html"
+
+        - permalink: "/organisations/meca/"
+          path: "/organizations/meca"
+          slug: "meca"
+          file: "content/fr/organizations/meca.html"
+
+      quantity: 5
+
+
+  - kind: block
+    template: organizations
+    title: >-
+      Opérateurs
+    slug: >-
+      operateurs
+    ranks:
+      base: 3
+      self: 3
+      children: 4
+    top:
+      active: true
+      title: 
+        value: >-
+          Opérateurs
+        heading: 3
+
+    data:
+      layout: large
+
+      options:
+        link: true
+        logo: true
+        summary: false
+        address: false
+        filters: false
+
+      organizations:
+        - permalink: "/organisations/scin-la-megisserie/"
+          path: "/organizations/scin-la-megisserie"
+          slug: "scin-la-megisserie"
+          file: "content/fr/organizations/scin-la-megisserie.html"
+
+        - permalink: "/organisations/scin-theatre-du-cloitre/"
+          path: "/organizations/scin-theatre-du-cloitre"
+          slug: "scin-theatre-du-cloitre"
+          file: "content/fr/organizations/scin-theatre-du-cloitre.html"
+
+        - permalink: "/organisations/les-3-theatres-3t/"
+          path: "/organizations/les-3-theatres-3t"
+          slug: "les-3-theatres-3t"
+          file: "content/fr/organizations/les-3-theatres-3t.html"
+
+        - permalink: "/organisations/scin-s-il-vous-plait/"
+          path: "/organizations/scin-s-il-vous-plait"
+          slug: "scin-s-il-vous-plait"
+          file: "content/fr/organizations/scin-s-il-vous-plait.html"
+
+        - permalink: "/organisations/oara/"
+          path: "/organizations/oara"
+          slug: "oara"
+          file: "content/fr/organizations/oara.html"
+
+      quantity: 5
 
 
 
