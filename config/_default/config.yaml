@@ -14,3 +14,12 @@ params:
   organizations:
     single:
       backlinks: true
+  projects:
+    index:
+      layout: list
+      options:
+        categories: true
+        image: true
+        subtitle: true
+        summary: true
+        year: false
