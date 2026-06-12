@@ -15,7 +15,7 @@ meta:
     slug: "reflet"
   dates:
     created_at: 2026-06-08T13:15:20+02:00
-    updated_at: 2026-06-11T13:18:06+02:00
+    updated_at: 2026-06-12T10:50:20+02:00
     published_at: 2026-06-11T13:18:06+02:00
 search:
   id: "4f58f558-15c9-420d-94ed-e83becb98f20"
@@ -28,7 +28,7 @@ search:
   summary: >-
     <p>En apesanteur sur ses rollers, Xuan LE, champion de freestyle slalom, nous emporte dans un flux d’énergie intense et méditatif, nous interrogeant sur nos origines et sur la relation que nous tissons avec le mouvement dans la vie.</p>
   body: >-
-    <p>Création </p>  <p> Étapes </p>  <p> Informations </p>  <p> Vie du spectacle  <br> Vie du spectacle </p>  <p> Lieux </p>  <p> Opérateurs </p>
+    <p>Création </p>  <p> Étapes </p>  <p> Informations </p>  <p> Vie du spectacle  <br> Vie du spectacle  <br>20 octobre 2023 <br>Lieu : Les Carmes (16) Opérateurs : CDC la Rochefoucauld-Portes-du-Périgord État : Première Fin : 20 octobre 2023 Commentaire : 20h</p>  <p>9 mai 2024 <br>Lieu : Esplanade de la Mer Opérateurs : CDC Île de Ré <br> État : Diffusion Fin : 10 mai 2024 Commentaire : 16h</p>  <p>28 mars 2025 <br>Lieu : Château de Barbezieux Opérateurs : CDC 4B Sud-Charente État : Diffusion Fin : 28 mars 2025 Commentaire : 20h30</p>  <p> Lieux </p>  <p> Opérateurs </p>
 
 breadcrumbs:
   - title: >-
@@ -91,7 +91,7 @@ taxonomies:
 
 
 contents_reading_time:
-  seconds: 3
+  seconds: 20
   text: >-
     moins d'une minute
 contents:
@@ -210,7 +210,7 @@ contents:
 
 
   - kind: block
-    template: datatable
+    template: timeline
     title: >-
       Vie du spectacle
     slug: >-
@@ -218,6 +218,7 @@ contents:
     ranks:
       base: 3
       self: 3
+      children: 4
     top:
       active: true
       title: 
@@ -226,19 +227,23 @@ contents:
         heading: 3
 
     data:
-
-      columns:
-        - "Lieu"
-        - "Opérateurs"
-        - "Début"
-        - "Fin"
-        - "État"
-        - "Commentaire"
-      rows:
-        - ["Les Carmes (16)","CDC la Rochefoucauld-Portes-du-Périgord","20 octobre 2023","20 octobre 2023","Première","20h"]
-        - ["Esplanade de la Mer","CDC Île de Ré\n","9 mai 2024","10 mai 2024","Diffusion","16h"]
-        - ["Château de Barbezieux","CDC 4B Sud-Charente","28 mars 2025","28 mars 2025","Diffusion","20h30"]
-
+      layout: vertical
+      events:
+        - 
+          title: >-
+            20 octobre 2023
+          text: >-
+            <p>Lieu : Les Carmes (16)<br>Opérateurs : CDC la Rochefoucauld-Portes-du-Périgord<br>État : Première<br>Fin : 20 octobre 2023<br>Commentaire : 20h</p>
+        - 
+          title: >-
+            9 mai 2024
+          text: >-
+            <p>Lieu : Esplanade de la Mer<br>Opérateurs : CDC Île de Ré <br>État : Diffusion<br>Fin : 10 mai 2024<br>Commentaire : 16h</p>
+        - 
+          title: >-
+            28 mars 2025
+          text: >-
+            <p>Lieu : Château de Barbezieux<br>Opérateurs : CDC 4B Sud-Charente<br>État : Diffusion<br>Fin : 28 mars 2025<br>Commentaire : 20h30</p>
 
 
   - kind: block
