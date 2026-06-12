@@ -3,8 +3,26 @@
     li
         margin-bottom: $spacing-1
         a
-            background: $color-accent
-            color: $color-text !important
+            background: $color-text
+            color: $color-accent !important
             text-transform: uppercase
+            font-size: pxToRem(13)
             padding: space(1) space(3)
             border-radius: 50px
+.dropdown-share
+    display: none
+.projects__page
+    .hero
+        .content
+            h1
+                > span
+                    font-weight: normal
+        .hero-text
+            margin-top: 0
+            padding-bottom: 0
+.toc
+    ol
+        .active
+            &::before
+                content: "● "
+                color: $color-accent

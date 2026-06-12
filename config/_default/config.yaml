@@ -2,7 +2,9 @@ theme: osuny
 _merge: deep
 params:
   summary:
-    position: hero
+    position: content
+  breadcrumb:
+    position: after-hero
   search:
     active: true
   logo:
@@ -23,3 +25,16 @@ params:
         subtitle: true
         summary: true
         year: false
+    single:
+      meta:
+        position: hero
+        options:
+          authors: false
+          dates: false
+          year: false
+          published_at: true
+          reading_time: false
+          share: false
+          taxonomies: true
+          updated_at: false
+          with_labels: true

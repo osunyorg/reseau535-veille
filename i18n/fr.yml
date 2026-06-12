@@ -4,3 +4,6 @@ backlinks:
   pages: Pages mentionnant {{ . }}
   posts: Actualités mentionnant {{ . }}
   projects: Spectacles
+
+categories:
+  no_project: Pas encore de spectacle dans cette catégorie
