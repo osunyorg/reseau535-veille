@@ -15,7 +15,7 @@ meta:
     slug: "clim"
   dates:
     created_at: 2026-06-08T13:15:14+02:00
-    updated_at: 2026-06-12T10:50:10+02:00
+    updated_at: 2026-06-12T11:50:48+02:00
     published_at: 2026-06-11T13:18:00+02:00
 search:
   id: "612925ad-7cb3-4feb-8694-2bdaf75a24eb"
@@ -28,7 +28,7 @@ search:
   summary: >-
     <p>CLIM est une forme brute, hybride, parlée et dansée. CLIM est une femme. CLIM est cruelle et capitalise sur le changement climatique. CLIM est une réflexion sur les boucles de rétroactions, les cercles infernaux et les mécanismes de pensée qui régissent notre monde jusqu’à l’absurde.</p>
   body: >-
-    <p>Création </p>  <p> Étapes </p>  <p> Informations </p>  <p> Soutiens </p>  <p> Vie du spectacle  <br> Vie du spectacle  <br>29 mars 2021 <br>Lieu : Salle des fêtes Opérateurs : Réseau 535, Scènes Nomades État : Résidence Fin : 29 mars 2021 Commentaire : Lezay (79) - Sortie de résidence le 29 mars 2021 à 11h</p>  <p> Lieux </p>  <p> Opérateurs </p>
+    <p>Création  <br> Étapes </p>  <p> Informations  <br> Soutiens </p>  <p> Vie du spectacle  <br>   <br>29 mars 2021 <br>Lieu : Salle des fêtes Opérateurs : Réseau 535, Scènes Nomades État : Résidence Fin : 29 mars 2021 Commentaire : Lezay (79) - Sortie de résidence le 29 mars 2021 à 11h</p>  <p> Lieux </p>  <p> Opérateurs </p>
 
 breadcrumbs:
   - title: >-
@@ -41,10 +41,10 @@ breadcrumbs:
       CLIM
 
 design:
-  full_width: true
+  full_width: false
   toc:
-    present: false
-    offcanvas: true
+    present: true
+    offcanvas: false
 
 translationKey: communication-website-portfolio-project-d0129f39-ded5-4c51-9f57-01b6b525bc28
 
@@ -98,12 +98,12 @@ taxonomies:
 
 
 contents_reading_time:
-  seconds: 13
+  seconds: 12
   text: >-
     moins d'une minute
 contents:
   - kind: block
-    template: organizations
+    template: title
     title: >-
       Création
     slug: >-
@@ -111,13 +111,56 @@ contents:
     ranks:
       base: 2
       self: 2
-      children: 3
     top:
       active: true
       title: 
         value: >-
           Création
         heading: 2
+
+    data:
+      layout: classic
+
+
+  - kind: block
+    template: organizations
+    title: >-
+      Étapes
+    slug: >-
+      etapes
+    ranks:
+      base: 3
+      self: 3
+    top:
+      active: true
+      title: 
+        value: >-
+          Étapes
+        heading: 3
+
+    data:
+      layout: large
+
+      options:
+        link: true
+        logo: true
+        summary: false
+        address: false
+        filters: false
+
+      organizations:
+      quantity: 0
+
+
+  - kind: block
+    template: organizations
+
+
+    ranks:
+      base: 3
+      children: 3
+    top:
+      active: false
 
     data:
       layout: large
@@ -139,37 +182,7 @@ contents:
 
 
   - kind: block
-    template: organizations
-    title: >-
-      Étapes
-    slug: >-
-      etapes
-    ranks:
-      base: 2
-      self: 2
-    top:
-      active: true
-      title: 
-        value: >-
-          Étapes
-        heading: 2
-
-    data:
-      layout: large
-
-      options:
-        link: true
-        logo: true
-        summary: false
-        address: false
-        filters: false
-
-      organizations:
-      quantity: 0
-
-
-  - kind: block
-    template: datatable
+    template: title
     title: >-
       Informations
     slug: >-
@@ -185,15 +198,7 @@ contents:
         heading: 2
 
     data:
-
-      columns:
-        - ""
-        - ""
-      rows:
-        - ["Étape","Diffusion"]
-        - ["Âge minimum","15 ans"]
-        - ["Durée","40 minutes"]
-
+      layout: classic
 
 
   - kind: block
@@ -203,15 +208,15 @@ contents:
     slug: >-
       soutiens
     ranks:
-      base: 2
-      self: 2
-      children: 3
+      base: 3
+      self: 3
+      children: 4
     top:
       active: true
       title: 
         value: >-
           Soutiens
-        heading: 2
+        heading: 3
 
     data:
       layout: large
@@ -230,6 +235,27 @@ contents:
           file: "content/fr/organizations/scin-theatre-du-cloitre.html"
 
       quantity: 1
+
+
+  - kind: block
+    template: datatable
+
+
+    ranks:
+      base: 3
+    top:
+      active: false
+
+    data:
+
+      columns:
+        - ""
+        - ""
+      rows:
+        - ["Étape","Diffusion"]
+        - ["Âge minimum","15 ans"]
+        - ["Durée","40 minutes"]
+
 
 
   - kind: block
@@ -254,20 +280,13 @@ contents:
 
   - kind: block
     template: timeline
-    title: >-
-      Vie du spectacle
-    slug: >-
-      vie-du-spectacle
+
+
     ranks:
       base: 3
-      self: 3
-      children: 4
+      children: 3
     top:
-      active: true
-      title: 
-        value: >-
-          Vie du spectacle
-        heading: 3
+      active: false
 
     data:
       layout: vertical

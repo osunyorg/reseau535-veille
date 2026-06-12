@@ -15,7 +15,7 @@ meta:
     slug: "cou-erture"
   dates:
     created_at: 2026-06-08T13:15:17+02:00
-    updated_at: 2026-06-12T10:55:57+02:00
+    updated_at: 2026-06-12T11:50:51+02:00
     published_at: 2026-06-11T13:18:02+02:00
 search:
   id: "fe57c9e1-ffe8-49b8-ba1e-b1561dbcd56b"
@@ -28,7 +28,7 @@ search:
   summary: >-
     <p>Un spectacle sur, pour et avec la petite enfance</p>
   body: >-
-    <p>Création </p>  <p> Étapes </p>  <p> Informations </p>  <p> Fichiers  <br>Accéder aux fichiers liés au spectacle</p>  <p>Dossier Drive <br>https://drive.google.com/drive/folders/1ST7IVo04Z7C8z10g-6itZIaklWfh9huZ?usp=drive_link</p>  <p> Soutiens </p>  <p> Commentaire  <br>De 6 mois à 3 ans</p>  <p> Vie du spectacle  <br> Vie du spectacle  <br>13 octobre 2025 <br>Lieu : M270 Opérateurs : Ville de Floirac État : Résidence Fin : 17 octobre 2025 Commentaire : Sortie de résidence le 16 octobre 2025 à 10h</p>  <p>28 janvier 2026 <br>Lieu : Crèche Opérateurs : CDCN La Manufacture, Ville de Lormont État : Diffusion Fin : 29 janvier 2026 Commentaire : 4 représentations</p>  <p>25 avril 2026 <br>Lieu : Crèche Opérateurs : Ville de Floirac État : Diffusion Fin : 25 avril 2026 Commentaire : 9h30 et 11h</p>  <p> Lieux </p>  <p> Opérateurs </p>
+    <p>Création  <br> Étapes </p>  <p> Informations  <br> Soutiens </p>  <p> Fichiers  <br>   <br>Accéder aux fichiers liés au spectacle</p>  <p>Dossier Drive <br>https://drive.google.com/drive/folders/1ST7IVo04Z7C8z10g-6itZIaklWfh9huZ?usp=drive_link</p>  <p> Commentaire  <br>   <br>De 6 mois à 3 ans</p>  <p> Vie du spectacle  <br>   <br>13 octobre 2025 <br>Lieu : M270 Opérateurs : Ville de Floirac État : Résidence Fin : 17 octobre 2025 Commentaire : Sortie de résidence le 16 octobre 2025 à 10h</p>  <p>28 janvier 2026 <br>Lieu : Crèche Opérateurs : CDCN La Manufacture, Ville de Lormont État : Diffusion Fin : 29 janvier 2026 Commentaire : 4 représentations</p>  <p>25 avril 2026 <br>Lieu : Crèche Opérateurs : Ville de Floirac État : Diffusion Fin : 25 avril 2026 Commentaire : 9h30 et 11h</p>  <p> Lieux </p>  <p> Opérateurs </p>
 
 breadcrumbs:
   - title: >-
@@ -41,10 +41,10 @@ breadcrumbs:
       Cou erture
 
 design:
-  full_width: true
+  full_width: false
   toc:
-    present: false
-    offcanvas: true
+    present: true
+    offcanvas: false
 
 translationKey: communication-website-portfolio-project-c91c9529-b73b-4d72-8e55-dd70648017ed
 
@@ -98,12 +98,12 @@ taxonomies:
 
 
 contents_reading_time:
-  seconds: 28
+  seconds: 27
   text: >-
     moins d'une minute
 contents:
   - kind: block
-    template: organizations
+    template: title
     title: >-
       Création
     slug: >-
@@ -111,13 +111,26 @@ contents:
     ranks:
       base: 2
       self: 2
-      children: 3
     top:
       active: true
       title: 
         value: >-
           Création
         heading: 2
+
+    data:
+      layout: classic
+
+
+  - kind: block
+    template: organizations
+
+
+    ranks:
+      base: 3
+      children: 3
+    top:
+      active: false
 
     data:
       layout: large
@@ -145,14 +158,14 @@ contents:
     slug: >-
       etapes
     ranks:
-      base: 2
-      self: 2
+      base: 3
+      self: 3
     top:
       active: true
       title: 
         value: >-
           Étapes
-        heading: 2
+        heading: 3
 
     data:
       layout: large
@@ -169,7 +182,7 @@ contents:
 
 
   - kind: block
-    template: datatable
+    template: title
     title: >-
       Informations
     slug: >-
@@ -185,6 +198,19 @@ contents:
         heading: 2
 
     data:
+      layout: classic
+
+
+  - kind: block
+    template: datatable
+
+
+    ranks:
+      base: 3
+    top:
+      active: false
+
+    data:
 
       columns:
         - ""
@@ -196,52 +222,21 @@ contents:
 
 
   - kind: block
-    template: call_to_action
-    title: >-
-      Fichiers
-    slug: >-
-      fichiers
-    ranks:
-      base: 2
-      self: 2
-    top:
-      active: true
-      title: 
-        value: >-
-          Fichiers
-        heading: 2
-      description: >-
-        <p>Accéder aux fichiers liés au spectacle</p>
-    data:
-      layout: accent_background
-      text: >-
-        <p>Accéder aux fichiers liés au spectacle</p>
-
-      buttons:
-        - 
-          title: >-
-            Dossier Drive
-          url: >-
-            https://drive.google.com/drive/folders/1ST7IVo04Z7C8z10g-6itZIaklWfh9huZ?usp=drive_link
-          target_blank: true
-
-
-  - kind: block
     template: organizations
     title: >-
       Soutiens
     slug: >-
       soutiens
     ranks:
-      base: 2
-      self: 2
-      children: 3
+      base: 3
+      self: 3
+      children: 4
     top:
       active: true
       title: 
         value: >-
           Soutiens
-        heading: 2
+        heading: 3
 
     data:
       layout: large
@@ -268,7 +263,51 @@ contents:
 
 
   - kind: block
-    template: chapter
+    template: title
+    title: >-
+      Fichiers
+    slug: >-
+      fichiers
+    ranks:
+      base: 2
+      self: 2
+    top:
+      active: true
+      title: 
+        value: >-
+          Fichiers
+        heading: 2
+
+    data:
+      layout: classic
+
+
+  - kind: block
+    template: call_to_action
+
+
+    ranks:
+      base: 3
+    top:
+      active: true
+      description: >-
+        <p>Accéder aux fichiers liés au spectacle</p>
+    data:
+      layout: accent_background
+      text: >-
+        <p>Accéder aux fichiers liés au spectacle</p>
+
+      buttons:
+        - 
+          title: >-
+            Dossier Drive
+          url: >-
+            https://drive.google.com/drive/folders/1ST7IVo04Z7C8z10g-6itZIaklWfh9huZ?usp=drive_link
+          target_blank: true
+
+
+  - kind: block
+    template: title
     title: >-
       Commentaire
     slug: >-
@@ -282,6 +321,19 @@ contents:
         value: >-
           Commentaire
         heading: 2
+
+    data:
+      layout: classic
+
+
+  - kind: block
+    template: chapter
+
+
+    ranks:
+      base: 3
+    top:
+      active: false
 
     data:
       layout: no_background
@@ -315,20 +367,13 @@ contents:
 
   - kind: block
     template: timeline
-    title: >-
-      Vie du spectacle
-    slug: >-
-      vie-du-spectacle
+
+
     ranks:
       base: 3
-      self: 3
-      children: 4
+      children: 3
     top:
-      active: true
-      title: 
-        value: >-
-          Vie du spectacle
-        heading: 3
+      active: false
 
     data:
       layout: vertical

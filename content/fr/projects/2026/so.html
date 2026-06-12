@@ -15,7 +15,7 @@ meta:
     slug: "so"
   dates:
     created_at: 2026-06-08T13:15:18+02:00
-    updated_at: 2026-06-12T10:55:58+02:00
+    updated_at: 2026-06-12T11:50:54+02:00
     published_at: 2026-06-11T13:18:04+02:00
 search:
   id: "9ee72f05-9811-4234-b63e-0d5b7d01d543"
@@ -28,7 +28,7 @@ search:
   summary: >-
     <p>Évoquer ensemble le paysage, c’est s’y associer. Le parcourir, c’est le comprendre. SO, c’est une histoire de paysages et d’êtres vivants sur ces paysages.</p>
   body: >-
-    <p>Création </p>  <p> Étapes </p>  <p> Informations </p>  <p> Fichiers  <br>Accéder aux fichiers liés au spectacle</p>  <p>Dossier Drive <br>https://drive.google.com/drive/folders/1lmif3Ih_wKlIbHMiDUArOxERVjJj0ib1?usp=sharing</p>  <p> Soutiens </p>  <p> Commentaire  <br>De 6 mois à 3 ans</p>  <p> Vie du spectacle  <br> Vie du spectacle  <br>19 mai 2025 <br>Lieu : Théâtre Saragosse Opérateurs : L'Agora (64) État : Résidence Fin : 23 mai 2025 Commentaire : Sortie de résidence le 22 mai 2025 à 14h30</p>  <p>22 septembre 2025 <br>Lieu : Théâtre Saragosse Opérateurs : L'Agora (64) État : Résidence Fin : 26 septembre 2025 Commentaire : Sortie de résidence le 24 septembre 2025 à 16h</p>  <p>13 janvier 2026 <br>Lieu : L'Atelier du Neez Opérateurs : Ville de Jurançon État : Première Fin : 15 janvier 2026</p>  <p>21 janvier 2026 <br>Lieu : Le Champ de Foire Opérateurs : CLAP État : Diffusion Fin : 31 janvier 2026</p>  <p>16 mars 2026 <br>Lieu : Le Péglé Opérateurs : SCIN Théâtres de Gascogne État : Diffusion Fin : 24 mars 2026</p>  <p>25 mars 2026 <br>Opérateurs : Communauté d'Agglomération Pays Basque (CAPB) État : Diffusion Fin : 1 avril 2026 Commentaire : Saint-Jean-le-Vieux, Ascain et Saint-Palais</p>  <p> Lieux </p>  <p> Opérateurs </p>
+    <p>Création  <br> Étapes </p>  <p> Informations  <br> Soutiens </p>  <p> Fichiers  <br>   <br>Accéder aux fichiers liés au spectacle</p>  <p>Dossier Drive <br>https://drive.google.com/drive/folders/1lmif3Ih_wKlIbHMiDUArOxERVjJj0ib1?usp=sharing</p>  <p> Commentaire  <br>   <br>De 6 mois à 3 ans</p>  <p> Vie du spectacle  <br>   <br>19 mai 2025 <br>Lieu : Théâtre Saragosse Opérateurs : L'Agora (64) État : Résidence Fin : 23 mai 2025 Commentaire : Sortie de résidence le 22 mai 2025 à 14h30</p>  <p>22 septembre 2025 <br>Lieu : Théâtre Saragosse Opérateurs : L'Agora (64) État : Résidence Fin : 26 septembre 2025 Commentaire : Sortie de résidence le 24 septembre 2025 à 16h</p>  <p>13 janvier 2026 <br>Lieu : L'Atelier du Neez Opérateurs : Ville de Jurançon État : Première Fin : 15 janvier 2026</p>  <p>21 janvier 2026 <br>Lieu : Le Champ de Foire Opérateurs : CLAP État : Diffusion Fin : 31 janvier 2026</p>  <p>16 mars 2026 <br>Lieu : Le Péglé Opérateurs : SCIN Théâtres de Gascogne État : Diffusion Fin : 24 mars 2026</p>  <p>25 mars 2026 <br>Opérateurs : Communauté d'Agglomération Pays Basque (CAPB) État : Diffusion Fin : 1 avril 2026 Commentaire : Saint-Jean-le-Vieux, Ascain et Saint-Palais</p>  <p> Lieux </p>  <p> Opérateurs </p>
 
 breadcrumbs:
   - title: >-
@@ -41,10 +41,10 @@ breadcrumbs:
       SO
 
 design:
-  full_width: true
+  full_width: false
   toc:
-    present: false
-    offcanvas: true
+    present: true
+    offcanvas: false
 
 translationKey: communication-website-portfolio-project-d9fcf218-0f36-4a4e-94b7-350f4c3bff07
 
@@ -105,12 +105,12 @@ taxonomies:
 
 
 contents_reading_time:
-  seconds: 45
+  seconds: 44
   text: >-
     1 minute
 contents:
   - kind: block
-    template: organizations
+    template: title
     title: >-
       Création
     slug: >-
@@ -118,13 +118,26 @@ contents:
     ranks:
       base: 2
       self: 2
-      children: 3
     top:
       active: true
       title: 
         value: >-
           Création
         heading: 2
+
+    data:
+      layout: classic
+
+
+  - kind: block
+    template: organizations
+
+
+    ranks:
+      base: 3
+      children: 3
+    top:
+      active: false
 
     data:
       layout: large
@@ -152,14 +165,14 @@ contents:
     slug: >-
       etapes
     ranks:
-      base: 2
-      self: 2
+      base: 3
+      self: 3
     top:
       active: true
       title: 
         value: >-
           Étapes
-        heading: 2
+        heading: 3
 
     data:
       layout: large
@@ -176,7 +189,7 @@ contents:
 
 
   - kind: block
-    template: datatable
+    template: title
     title: >-
       Informations
     slug: >-
@@ -192,45 +205,7 @@ contents:
         heading: 2
 
     data:
-
-      columns:
-        - ""
-        - ""
-      rows:
-        - ["Étape","Diffusion"]
-        - ["Durée","30 minutes"]
-
-
-
-  - kind: block
-    template: call_to_action
-    title: >-
-      Fichiers
-    slug: >-
-      fichiers
-    ranks:
-      base: 2
-      self: 2
-    top:
-      active: true
-      title: 
-        value: >-
-          Fichiers
-        heading: 2
-      description: >-
-        <p>Accéder aux fichiers liés au spectacle</p>
-    data:
-      layout: accent_background
-      text: >-
-        <p>Accéder aux fichiers liés au spectacle</p>
-
-      buttons:
-        - 
-          title: >-
-            Dossier Drive
-          url: >-
-            https://drive.google.com/drive/folders/1lmif3Ih_wKlIbHMiDUArOxERVjJj0ib1?usp=sharing
-          target_blank: true
+      layout: classic
 
 
   - kind: block
@@ -240,15 +215,15 @@ contents:
     slug: >-
       soutiens
     ranks:
-      base: 2
-      self: 2
-      children: 3
+      base: 3
+      self: 3
+      children: 4
     top:
       active: true
       title: 
         value: >-
           Soutiens
-        heading: 2
+        heading: 3
 
     data:
       layout: large
@@ -275,7 +250,71 @@ contents:
 
 
   - kind: block
-    template: chapter
+    template: datatable
+
+
+    ranks:
+      base: 3
+    top:
+      active: false
+
+    data:
+
+      columns:
+        - ""
+        - ""
+      rows:
+        - ["Étape","Diffusion"]
+        - ["Durée","30 minutes"]
+
+
+
+  - kind: block
+    template: title
+    title: >-
+      Fichiers
+    slug: >-
+      fichiers
+    ranks:
+      base: 2
+      self: 2
+    top:
+      active: true
+      title: 
+        value: >-
+          Fichiers
+        heading: 2
+
+    data:
+      layout: classic
+
+
+  - kind: block
+    template: call_to_action
+
+
+    ranks:
+      base: 3
+    top:
+      active: true
+      description: >-
+        <p>Accéder aux fichiers liés au spectacle</p>
+    data:
+      layout: accent_background
+      text: >-
+        <p>Accéder aux fichiers liés au spectacle</p>
+
+      buttons:
+        - 
+          title: >-
+            Dossier Drive
+          url: >-
+            https://drive.google.com/drive/folders/1lmif3Ih_wKlIbHMiDUArOxERVjJj0ib1?usp=sharing
+          target_blank: true
+
+
+  - kind: block
+    template: title
     title: >-
       Commentaire
     slug: >-
@@ -289,6 +328,19 @@ contents:
         value: >-
           Commentaire
         heading: 2
+
+    data:
+      layout: classic
+
+
+  - kind: block
+    template: chapter
+
+
+    ranks:
+      base: 3
+    top:
+      active: false
 
     data:
       layout: no_background
@@ -322,20 +374,13 @@ contents:
 
   - kind: block
     template: timeline
-    title: >-
-      Vie du spectacle
-    slug: >-
-      vie-du-spectacle
+
+
     ranks:
       base: 3
-      self: 3
-      children: 4
+      children: 3
     top:
-      active: true
-      title: 
-        value: >-
-          Vie du spectacle
-        heading: 3
+      active: false
 
     data:
       layout: vertical

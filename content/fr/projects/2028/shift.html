@@ -15,7 +15,7 @@ meta:
     slug: "shift"
   dates:
     created_at: 2026-06-08T13:15:16+02:00
-    updated_at: 2026-06-11T13:18:01+02:00
+    updated_at: 2026-06-12T11:50:49+02:00
     published_at: 2026-06-11T13:18:01+02:00
 search:
   id: "f9a4603c-72bf-4ae8-a171-7c5f2d51f578"
@@ -28,7 +28,7 @@ search:
   summary: >-
     <p>Exploration des mécanismes de la communication humaine</p>
   body: >-
-    <p>Création </p>  <p> Informations </p>  <p> Soutiens </p>
+    <p>Création  <br> Informations  <br> Soutiens </p>
 
 breadcrumbs:
   - title: >-
@@ -41,10 +41,10 @@ breadcrumbs:
       SHIFT
 
 design:
-  full_width: true
+  full_width: false
   toc:
-    present: false
-    offcanvas: true
+    present: true
+    offcanvas: false
 
 translationKey: communication-website-portfolio-project-2e2ad5fc-c409-4f2d-8967-664f5761cefc
 
@@ -96,7 +96,7 @@ contents_reading_time:
     moins d'une minute
 contents:
   - kind: block
-    template: organizations
+    template: title
     title: >-
       Création
     slug: >-
@@ -104,13 +104,26 @@ contents:
     ranks:
       base: 2
       self: 2
-      children: 3
     top:
       active: true
       title: 
         value: >-
           Création
         heading: 2
+
+    data:
+      layout: classic
+
+
+  - kind: block
+    template: organizations
+
+
+    ranks:
+      base: 3
+      children: 3
+    top:
+      active: false
 
     data:
       layout: large
@@ -132,7 +145,7 @@ contents:
 
 
   - kind: block
-    template: datatable
+    template: title
     title: >-
       Informations
     slug: >-
@@ -148,13 +161,7 @@ contents:
         heading: 2
 
     data:
-
-      columns:
-        - ""
-        - ""
-      rows:
-        - ["Étape","Création"]
-
+      layout: classic
 
 
   - kind: block
@@ -164,15 +171,15 @@ contents:
     slug: >-
       soutiens
     ranks:
-      base: 2
-      self: 2
-      children: 3
+      base: 3
+      self: 3
+      children: 4
     top:
       active: true
       title: 
         value: >-
           Soutiens
-        heading: 2
+        heading: 3
 
     data:
       layout: large
@@ -196,6 +203,25 @@ contents:
           file: "content/fr/organizations/ville-d-aytre.html"
 
       quantity: 2
+
+
+  - kind: block
+    template: datatable
+
+
+    ranks:
+      base: 3
+    top:
+      active: false
+
+    data:
+
+      columns:
+        - ""
+        - ""
+      rows:
+        - ["Étape","Création"]
+
 
 
 
