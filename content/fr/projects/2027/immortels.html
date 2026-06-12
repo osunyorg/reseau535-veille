@@ -15,7 +15,7 @@ meta:
     slug: "immortels"
   dates:
     created_at: 2026-06-08T13:15:16+02:00
-    updated_at: 2026-06-12T11:50:50+02:00
+    updated_at: 2026-06-12T11:58:05+02:00
     published_at: 2026-06-11T13:18:02+02:00
 search:
   id: "751c9f5d-b257-4b4a-8e6e-4bc8de7b5ff8"
@@ -28,7 +28,7 @@ search:
   summary: >-
     <p>Une photographe rencontre un homme qui tombe raide mort devant elle, puis renaît le lendemain matin. Pendant un an, cette éternelle renaissance va créer un lien entre les deux personnages</p>
   body: >-
-    <p>Création  <br> Étapes </p>  <p> Informations  <br> Soutiens </p>  <p> Vie du spectacle  <br>   <br>14 avril 2026 <br>Lieu : Salle des fêtes Opérateurs : A4 État : Résidence Fin : 26 avril 2026 Commentaire : Torxé (17) - Sortie de résidence le 26 avril 2026 à 14</p>  <p> Lieux </p>  <p> Opérateurs </p>
+    <p>Création  <br> Étapes </p>  <p> Informations  <br> Soutiens  <br> Vie du spectacle  <br>   <br>14 avril 2026 <br>Lieu : Salle des fêtes Opérateurs : A4 État : Résidence Fin : 26 avril 2026 Commentaire : Torxé (17) - Sortie de résidence le 26 avril 2026 à 14</p>  <p> Lieux </p>  <p> Opérateurs </p>
 
 breadcrumbs:
   - title: >-
@@ -117,6 +117,35 @@ contents:
 
   - kind: block
     template: organizations
+
+
+    ranks:
+      base: 3
+      children: 3
+    top:
+      active: false
+
+    data:
+      layout: large
+
+      options:
+        link: true
+        logo: true
+        summary: false
+        address: false
+        filters: false
+
+      organizations:
+        - permalink: "/organisations/soleil-glace/"
+          path: "/organizations/soleil-glace"
+          slug: "soleil-glace"
+          file: "content/fr/organizations/soleil-glace.html"
+
+      quantity: 1
+
+
+  - kind: block
+    template: organizations
     title: >-
       Étapes
     slug: >-
@@ -146,35 +175,6 @@ contents:
 
 
   - kind: block
-    template: organizations
-
-
-    ranks:
-      base: 3
-      children: 3
-    top:
-      active: false
-
-    data:
-      layout: large
-
-      options:
-        link: true
-        logo: true
-        summary: false
-        address: false
-        filters: false
-
-      organizations:
-        - permalink: "/organisations/soleil-glace/"
-          path: "/organizations/soleil-glace"
-          slug: "soleil-glace"
-          file: "content/fr/organizations/soleil-glace.html"
-
-      quantity: 1
-
-
-  - kind: block
     template: title
     title: >-
       Informations
@@ -195,21 +195,53 @@ contents:
 
 
   - kind: block
-    template: organizations
+    template: datatable
+
+
+    ranks:
+      base: 3
+    top:
+      active: false
+
+    data:
+
+      columns:
+        - ""
+        - ""
+      rows:
+        - ["Étape","Création"]
+
+
+
+  - kind: block
+    template: title
     title: >-
       Soutiens
     slug: >-
       soutiens
     ranks:
-      base: 3
-      self: 3
-      children: 4
+      base: 2
+      self: 2
     top:
       active: true
       title: 
         value: >-
           Soutiens
-        heading: 3
+        heading: 2
+
+    data:
+      layout: classic
+
+
+  - kind: block
+    template: organizations
+
+
+    ranks:
+      base: 3
+      children: 3
+    top:
+      active: false
 
     data:
       layout: large
@@ -248,25 +280,6 @@ contents:
           file: "content/fr/organizations/scin-la-megisserie.html"
 
       quantity: 5
-
-
-  - kind: block
-    template: datatable
-
-
-    ranks:
-      base: 3
-    top:
-      active: false
-
-    data:
-
-      columns:
-        - ""
-        - ""
-      rows:
-        - ["Étape","Création"]
-
 
 
   - kind: block
