@@ -14,7 +14,3 @@ for = ["**/*.png", "**/*.jpg", "**/*.jpeg", "**/*.gif", "**/*.webp"]
 [headers.values]
 Cache-Control = "max-age=31536000, no-transform, public"
 
-[[redirects]]
-from = "/spectacles/2026-spectacle-a-part/index.html"
-to = "/spectacles/2026-spectacle-de-test/"
-
