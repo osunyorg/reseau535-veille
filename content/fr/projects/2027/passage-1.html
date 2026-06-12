@@ -16,7 +16,7 @@ meta:
     slug: "passage-1"
   dates:
     created_at: 2026-06-08T13:15:19+02:00
-    updated_at: 2026-06-12T10:50:20+02:00
+    updated_at: 2026-06-12T11:50:55+02:00
     published_at: 2026-06-11T13:18:06+02:00
 search:
   id: "cb2fb4dc-7fc8-4011-867e-2c7bfe48d234"
@@ -29,7 +29,7 @@ search:
   summary: >-
     <p>Passage repose sur une approche multidisciplinaire mêlant danse verticale, danse sur roller, et cirque. Les disciplines artistiques mobilisées incarnent les quatre éléments naturels : l'air, la terre, l'eau, le feu</p>
   body: >-
-    <p>Création </p>  <p> Étapes </p>  <p> Informations </p>  <p> Soutiens </p>  <p> Vie du spectacle  <br> Vie du spectacle  <br>6 avril 2026 <br>Lieu : Chapelle Fromentin Opérateurs : CCN Mille Plateaux État : Résidence Fin : 10 avril 2026 Commentaire : Sortie de résidence le 10 avril 2026 à 15h</p>  <p>16 octobre 2026 <br>Lieu : Château de Barbezieux Opérateurs : CDC 4B Sud-Charente État : Résidence Fin : 16 octobre 2026 Commentaire : Sortie de résidence le 16 octobre 2026 à 18h30</p>  <p> Lieux </p>  <p> Opérateurs </p>
+    <p>Création  <br> Étapes </p>  <p> Informations  <br> Soutiens </p>  <p> Vie du spectacle  <br>   <br>6 avril 2026 <br>Lieu : Chapelle Fromentin Opérateurs : CCN Mille Plateaux État : Résidence Fin : 10 avril 2026 Commentaire : Sortie de résidence le 10 avril 2026 à 15h</p>  <p>16 octobre 2026 <br>Lieu : Château de Barbezieux Opérateurs : CDC 4B Sud-Charente État : Résidence Fin : 16 octobre 2026 Commentaire : Sortie de résidence le 16 octobre 2026 à 18h30</p>  <p> Lieux </p>  <p> Opérateurs </p>
 
 breadcrumbs:
   - title: >-
@@ -42,10 +42,10 @@ breadcrumbs:
       Passage
 
 design:
-  full_width: true
+  full_width: false
   toc:
-    present: false
-    offcanvas: true
+    present: true
+    offcanvas: false
 
 translationKey: communication-website-portfolio-project-ce434366-1342-4938-8300-8fe294342d75
 
@@ -99,12 +99,12 @@ taxonomies:
 
 
 contents_reading_time:
-  seconds: 18
+  seconds: 17
   text: >-
     moins d'une minute
 contents:
   - kind: block
-    template: organizations
+    template: title
     title: >-
       Création
     slug: >-
@@ -112,13 +112,56 @@ contents:
     ranks:
       base: 2
       self: 2
-      children: 3
     top:
       active: true
       title: 
         value: >-
           Création
         heading: 2
+
+    data:
+      layout: classic
+
+
+  - kind: block
+    template: organizations
+    title: >-
+      Étapes
+    slug: >-
+      etapes
+    ranks:
+      base: 3
+      self: 3
+    top:
+      active: true
+      title: 
+        value: >-
+          Étapes
+        heading: 3
+
+    data:
+      layout: large
+
+      options:
+        link: true
+        logo: true
+        summary: false
+        address: false
+        filters: false
+
+      organizations:
+      quantity: 0
+
+
+  - kind: block
+    template: organizations
+
+
+    ranks:
+      base: 3
+      children: 3
+    top:
+      active: false
 
     data:
       layout: large
@@ -140,37 +183,7 @@ contents:
 
 
   - kind: block
-    template: organizations
-    title: >-
-      Étapes
-    slug: >-
-      etapes
-    ranks:
-      base: 2
-      self: 2
-    top:
-      active: true
-      title: 
-        value: >-
-          Étapes
-        heading: 2
-
-    data:
-      layout: large
-
-      options:
-        link: true
-        logo: true
-        summary: false
-        address: false
-        filters: false
-
-      organizations:
-      quantity: 0
-
-
-  - kind: block
-    template: datatable
+    template: title
     title: >-
       Informations
     slug: >-
@@ -186,13 +199,7 @@ contents:
         heading: 2
 
     data:
-
-      columns:
-        - ""
-        - ""
-      rows:
-        - ["Étape","Création"]
-
+      layout: classic
 
 
   - kind: block
@@ -202,15 +209,15 @@ contents:
     slug: >-
       soutiens
     ranks:
-      base: 2
-      self: 2
-      children: 3
+      base: 3
+      self: 3
+      children: 4
     top:
       active: true
       title: 
         value: >-
           Soutiens
-        heading: 2
+        heading: 3
 
     data:
       layout: large
@@ -242,6 +249,25 @@ contents:
 
 
   - kind: block
+    template: datatable
+
+
+    ranks:
+      base: 3
+    top:
+      active: false
+
+    data:
+
+      columns:
+        - ""
+        - ""
+      rows:
+        - ["Étape","Création"]
+
+
+
+  - kind: block
     template: title
     title: >-
       Vie du spectacle
@@ -263,20 +289,13 @@ contents:
 
   - kind: block
     template: timeline
-    title: >-
-      Vie du spectacle
-    slug: >-
-      vie-du-spectacle
+
+
     ranks:
       base: 3
-      self: 3
-      children: 4
+      children: 3
     top:
-      active: true
-      title: 
-        value: >-
-          Vie du spectacle
-        heading: 3
+      active: false
 
     data:
       layout: vertical

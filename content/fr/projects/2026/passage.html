@@ -16,7 +16,7 @@ meta:
     slug: "passage"
   dates:
     created_at: 2026-06-08T13:15:19+02:00
-    updated_at: 2026-06-11T13:18:06+02:00
+    updated_at: 2026-06-12T11:50:55+02:00
     published_at: 2026-06-11T13:18:05+02:00
 search:
   id: "498bd19b-ae95-476d-acdc-77f93a8dd757"
@@ -29,7 +29,7 @@ search:
   summary: >-
     <p>Passage repose sur une approche multidisciplinaire mêlant danse verticale, danse sur roller, et cirque. Les disciplines artistiques mobilisées incarnent les quatre éléments naturels : l'air, la terre, l'eau, le feu</p>
   body: >-
-    <p>Création </p>  <p> Informations </p>  <p> Soutiens </p>
+    <p>Création  <br> Informations  <br> Soutiens </p>
 
 breadcrumbs:
   - title: >-
@@ -42,10 +42,10 @@ breadcrumbs:
       Passage
 
 design:
-  full_width: true
+  full_width: false
   toc:
-    present: false
-    offcanvas: true
+    present: true
+    offcanvas: false
 
 translationKey: communication-website-portfolio-project-c0f081d5-6827-4873-93a3-051e54672c79
 
@@ -104,7 +104,7 @@ contents_reading_time:
     moins d'une minute
 contents:
   - kind: block
-    template: organizations
+    template: title
     title: >-
       Création
     slug: >-
@@ -112,13 +112,26 @@ contents:
     ranks:
       base: 2
       self: 2
-      children: 3
     top:
       active: true
       title: 
         value: >-
           Création
         heading: 2
+
+    data:
+      layout: classic
+
+
+  - kind: block
+    template: organizations
+
+
+    ranks:
+      base: 3
+      children: 3
+    top:
+      active: false
 
     data:
       layout: large
@@ -140,7 +153,7 @@ contents:
 
 
   - kind: block
-    template: datatable
+    template: title
     title: >-
       Informations
     slug: >-
@@ -154,6 +167,19 @@ contents:
         value: >-
           Informations
         heading: 2
+
+    data:
+      layout: classic
+
+
+  - kind: block
+    template: datatable
+
+
+    ranks:
+      base: 3
+    top:
+      active: false
 
     data:
 
@@ -172,15 +198,15 @@ contents:
     slug: >-
       soutiens
     ranks:
-      base: 2
-      self: 2
-      children: 3
+      base: 3
+      self: 3
+      children: 4
     top:
       active: true
       title: 
         value: >-
           Soutiens
-        heading: 2
+        heading: 3
 
     data:
       layout: large

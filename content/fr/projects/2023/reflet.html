@@ -15,7 +15,7 @@ meta:
     slug: "reflet"
   dates:
     created_at: 2026-06-08T13:15:20+02:00
-    updated_at: 2026-06-12T10:55:59+02:00
+    updated_at: 2026-06-12T11:50:56+02:00
     published_at: 2026-06-11T13:18:06+02:00
 search:
   id: "4f58f558-15c9-420d-94ed-e83becb98f20"
@@ -28,7 +28,7 @@ search:
   summary: >-
     <p>En apesanteur sur ses rollers, Xuan LE, champion de freestyle slalom, nous emporte dans un flux d’énergie intense et méditatif, nous interrogeant sur nos origines et sur la relation que nous tissons avec le mouvement dans la vie.</p>
   body: >-
-    <p>Création </p>  <p> Étapes </p>  <p> Informations </p>  <p> Vie du spectacle  <br> Vie du spectacle  <br>20 octobre 2023 <br>Lieu : Les Carmes (16) Opérateurs : CDC la Rochefoucauld-Portes-du-Périgord État : Première Fin : 20 octobre 2023 Commentaire : 20h</p>  <p>9 mai 2024 <br>Lieu : Esplanade de la Mer Opérateurs : CDC Île de Ré État : Diffusion Fin : 10 mai 2024 Commentaire : 16h</p>  <p>28 mars 2025 <br>Lieu : Château de Barbezieux Opérateurs : CDC 4B Sud-Charente État : Diffusion Fin : 28 mars 2025 Commentaire : 20h30</p>  <p> Lieux </p>  <p> Opérateurs </p>
+    <p>Création  <br> Étapes </p>  <p> Informations  <br> Vie du spectacle  <br>   <br>20 octobre 2023 <br>Lieu : Les Carmes (16) Opérateurs : CDC la Rochefoucauld-Portes-du-Périgord État : Première Fin : 20 octobre 2023 Commentaire : 20h</p>  <p>9 mai 2024 <br>Lieu : Esplanade de la Mer Opérateurs : CDC Île de Ré État : Diffusion Fin : 10 mai 2024 Commentaire : 16h</p>  <p>28 mars 2025 <br>Lieu : Château de Barbezieux Opérateurs : CDC 4B Sud-Charente État : Diffusion Fin : 28 mars 2025 Commentaire : 20h30</p>  <p> Lieux </p>  <p> Opérateurs </p>
 
 breadcrumbs:
   - title: >-
@@ -41,10 +41,10 @@ breadcrumbs:
       Reflet
 
 design:
-  full_width: true
+  full_width: false
   toc:
-    present: false
-    offcanvas: true
+    present: true
+    offcanvas: false
 
 translationKey: communication-website-portfolio-project-1bfaf4c6-7a92-4ad4-a3de-96a2f805d6fa
 
@@ -91,12 +91,12 @@ taxonomies:
 
 
 contents_reading_time:
-  seconds: 20
+  seconds: 19
   text: >-
     moins d'une minute
 contents:
   - kind: block
-    template: organizations
+    template: title
     title: >-
       Création
     slug: >-
@@ -104,13 +104,26 @@ contents:
     ranks:
       base: 2
       self: 2
-      children: 3
     top:
       active: true
       title: 
         value: >-
           Création
         heading: 2
+
+    data:
+      layout: classic
+
+
+  - kind: block
+    template: organizations
+
+
+    ranks:
+      base: 3
+      children: 3
+    top:
+      active: false
 
     data:
       layout: large
@@ -138,14 +151,14 @@ contents:
     slug: >-
       etapes
     ranks:
-      base: 2
-      self: 2
+      base: 3
+      self: 3
     top:
       active: true
       title: 
         value: >-
           Étapes
-        heading: 2
+        heading: 3
 
     data:
       layout: large
@@ -162,7 +175,7 @@ contents:
 
 
   - kind: block
-    template: datatable
+    template: title
     title: >-
       Informations
     slug: >-
@@ -176,6 +189,19 @@ contents:
         value: >-
           Informations
         heading: 2
+
+    data:
+      layout: classic
+
+
+  - kind: block
+    template: datatable
+
+
+    ranks:
+      base: 3
+    top:
+      active: false
 
     data:
 
@@ -211,20 +237,13 @@ contents:
 
   - kind: block
     template: timeline
-    title: >-
-      Vie du spectacle
-    slug: >-
-      vie-du-spectacle
+
+
     ranks:
       base: 3
-      self: 3
-      children: 4
+      children: 3
     top:
-      active: true
-      title: 
-        value: >-
-          Vie du spectacle
-        heading: 3
+      active: false
 
     data:
       layout: vertical
