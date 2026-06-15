@@ -3,18 +3,22 @@
     li
         margin-bottom: $spacing-1
         a
-            background: $color-text
-            color: $color-accent !important
+            background: $color-accent
+            color: $color-text !important
             text-transform: uppercase
             font-size: pxToRem(13)
             padding: space(1) space(3)
             border-radius: 50px
             text-decoration: none !important
             &:hover
-                background: $color-accent
-                color: $color-text !important
-.dropdown-share
-    display: none
+                background: $color-text
+                color: $color-accent !important
+.projects--grid
+    .project
+        img
+            aspect-ratio: 2048 / 1446
+    @include media-breakpoint-up(xl)
+        grid-template-columns: repeat(3, 1fr)
 .projects__page
     .hero
         .content
@@ -24,13 +28,3 @@
         .hero-text
             margin-top: 0
             padding-bottom: 0
-.toc
-    ol
-        .active
-            &::before
-                content: "● "
-                color: $color-accent
-.media--logo,
-.organization-logo
-    img
-        mix-blend-mode: multiply

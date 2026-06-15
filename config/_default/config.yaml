@@ -17,8 +17,9 @@ params:
     single:
       backlinks: true
   projects:
+    default_image: true
     index:
-      layout: list
+      layout: grid
       options:
         categories: true
         image: true
@@ -37,4 +38,4 @@ params:
           share: false
           taxonomies: true
           updated_at: false
-          with_labels: true
+          with_labels: false
