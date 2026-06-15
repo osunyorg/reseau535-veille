@@ -7,6 +7,10 @@ osuny:
   website:
     id: 0179a467-85bb-48b7-986c-018039c5cf08
 
+## PARAMS
+params:
+  _merge: deep
+  plausible: "veille.reseau535.fr"
 
 ## LANGUAGE
 defaultContentLanguage: fr
