@@ -10,7 +10,7 @@ header_text: >-
 url: "/"
 slug: ""
 date: 2026-05-04T17:13:12+02:00
-lastmod: 2026-06-15T14:29:31+02:00
+lastmod: 2026-06-18T17:40:17+02:00
 meta:
   hugo:
     permalink: "/"
@@ -19,7 +19,7 @@ meta:
     slug: ""
   dates:
     created_at: 2026-05-04T17:13:12+02:00
-    updated_at: 2026-06-15T14:29:31+02:00
+    updated_at: 2026-06-18T17:40:17+02:00
     published_at: 2026-05-04T17:13:12+02:00
 search:
   id: "0a589aea-100e-4fea-8f6f-c4372763c762"
@@ -30,7 +30,8 @@ search:
   title: >-
     Accueil
 
-
+  body: >-
+    <p>  <br>Une explication et un mot de bienvenue</p>  <p> Disciplines </p>  <p> Thématiques </p>
 
 breadcrumbs:
   - title: >-
@@ -74,70 +75,214 @@ header_cta:
 
 
 contents_reading_time:
-  seconds: 0
+  seconds: 3
   text: >-
     moins d'une minute
 contents:
   - kind: block
-    template: projects
+    template: chapter
 
 
     ranks:
       base: 2
-      children: 2
     top:
       active: false
 
     data:
-      mode: all
-      all: true
+      layout: no_background
+      text: >-
+        <p>Une explication et un mot de bienvenue</p>
+
+
+
+
+
+
+  - kind: block
+    template: categories
+    title: >-
+      Disciplines
+    slug: >-
+      disciplines
+    ranks:
+      base: 2
+      self: 2
+      children: 3
+    top:
+      active: true
+      title: 
+        value: >-
+          Disciplines
+        heading: 2
+
+    data:
       layout: grid
+
       options:
-        categories: true
+        count: true
         image: true
-        subtitle: true
         summary: true
-        year: false
 
-      projects:
-        - permalink: "/spectacles/2028-le-roman-de-bellac/"
-          path: "/projects/2028/le-roman-de-bellac"
-          slug: "le-roman-de-bellac"
-          file: "content/fr/projects/2028/le-roman-de-bellac.html"
-          name: >-
-            Le roman de Bellac
-        - permalink: "/spectacles/2028-shift/"
-          path: "/projects/2028/shift"
-          slug: "shift"
-          file: "content/fr/projects/2028/shift.html"
-          name: >-
-            SHIFT
-        - permalink: "/spectacles/2027-immortels/"
-          path: "/projects/2027/immortels"
-          slug: "immortels"
-          file: "content/fr/projects/2027/immortels.html"
-          name: >-
-            Immortels
-        - permalink: "/spectacles/2027-western/"
-          path: "/projects/2027/western"
-          slug: "western"
-          file: "content/fr/projects/2027/western.html"
-          name: >-
-            Western
-        - permalink: "/spectacles/2026-cou-erture/"
-          path: "/projects/2026/cou-erture"
-          slug: "cou-erture"
-          file: "content/fr/projects/2026/cou-erture.html"
-          name: >-
-            Cou erture
-        - permalink: "/spectacles/2026-dirau/"
-          path: "/projects/2026/dirau"
-          slug: "dirau"
-          file: "content/fr/projects/2026/dirau.html"
-          name: >-
-            Dirau
+      category_kind: projects
+      taxonomy_id: 0cca0442-eefc-40a0-ade0-5017c4532ab9
+      taxonomy:
+        permalink: "/spectacles/disciplines/"
+        path: "/projects_categories/disciplines"
+        slug: "disciplines"
+        file: "content/fr/projects_categories/disciplines/_index.html"
+        name: "Disciplines"
+      categories:
+        - permalink: "/spectacles/disciplines/chant/"
+          path: "/projects_categories/disciplines/chant"
+          slug: "disciplines/chant"
+          file: "content/fr/projects_categories/disciplines/chant/_index.html"
+          name: "Disciplines"
+          count: 1
+        - permalink: "/spectacles/disciplines/theatre-d-objets/"
+          path: "/projects_categories/disciplines/theatre-d-objets"
+          slug: "disciplines/theatre-d-objets"
+          file: "content/fr/projects_categories/disciplines/theatre-d-objets/_index.html"
+          name: "Disciplines"
+          count: 1
+        - permalink: "/spectacles/disciplines/images/"
+          path: "/projects_categories/disciplines/images"
+          slug: "disciplines/images"
+          file: "content/fr/projects_categories/disciplines/images/_index.html"
+          name: "Disciplines"
+          count: 2
+        - permalink: "/spectacles/disciplines/theatre-musical/"
+          path: "/projects_categories/disciplines/theatre-musical"
+          slug: "disciplines/theatre-musical"
+          file: "content/fr/projects_categories/disciplines/theatre-musical/_index.html"
+          name: "Disciplines"
+          count: 2
+        - permalink: "/spectacles/disciplines/projet-sur-le-territoire/"
+          path: "/projects_categories/disciplines/projet-sur-le-territoire"
+          slug: "disciplines/projet-sur-le-territoire"
+          file: "content/fr/projects_categories/disciplines/projet-sur-le-territoire/_index.html"
+          name: "Disciplines"
+          count: 1
+        - permalink: "/spectacles/disciplines/arts-du-cirque-et-du-clown/"
+          path: "/projects_categories/disciplines/arts-du-cirque-et-du-clown"
+          slug: "disciplines/arts-du-cirque-et-du-clown"
+          file: "content/fr/projects_categories/disciplines/arts-du-cirque-et-du-clown/_index.html"
+          name: "Disciplines"
+          count: 2
+        - permalink: "/spectacles/disciplines/arts-de-la-danse-et-du-geste/"
+          path: "/projects_categories/disciplines/arts-de-la-danse-et-du-geste"
+          slug: "disciplines/arts-de-la-danse-et-du-geste"
+          file: "content/fr/projects_categories/disciplines/arts-de-la-danse-et-du-geste/_index.html"
+          name: "Disciplines"
+          count: 7
+        - permalink: "/spectacles/disciplines/theatre-contemporain/"
+          path: "/projects_categories/disciplines/theatre-contemporain"
+          slug: "disciplines/theatre-contemporain"
+          file: "content/fr/projects_categories/disciplines/theatre-contemporain/_index.html"
+          name: "Disciplines"
+          count: 7
+        - permalink: "/spectacles/disciplines/espace-public/"
+          path: "/projects_categories/disciplines/espace-public"
+          slug: "disciplines/espace-public"
+          file: "content/fr/projects_categories/disciplines/espace-public/_index.html"
+          name: "Disciplines"
+          count: 5
 
-      quantity: 6
+
+  - kind: block
+    template: categories
+    title: >-
+      Thématiques
+    slug: >-
+      thematiques
+    ranks:
+      base: 2
+      self: 2
+      children: 3
+    top:
+      active: true
+      title: 
+        value: >-
+          Thématiques
+        heading: 2
+
+    data:
+      layout: grid
+
+      options:
+        count: true
+        image: true
+        summary: true
+
+      category_kind: projects
+      taxonomy_id: 6c5cce08-53c1-42ca-b72c-90841b8af03d
+      taxonomy:
+        permalink: "/spectacles/thematiques/"
+        path: "/projects_categories/thematiques"
+        slug: "thematiques"
+        file: "content/fr/projects_categories/thematiques/_index.html"
+        name: "Thématiques"
+      categories:
+        - permalink: "/spectacles/thematiques/corps/"
+          path: "/projects_categories/thematiques/corps"
+          slug: "thematiques/corps"
+          file: "content/fr/projects_categories/thematiques/corps/_index.html"
+          name: "Thématiques"
+          count: 5
+        - permalink: "/spectacles/thematiques/psychologie/"
+          path: "/projects_categories/thematiques/psychologie"
+          slug: "thematiques/psychologie"
+          file: "content/fr/projects_categories/thematiques/psychologie/_index.html"
+          name: "Thématiques"
+          count: 1
+        - permalink: "/spectacles/thematiques/environnement/"
+          path: "/projects_categories/thematiques/environnement"
+          slug: "thematiques/environnement"
+          file: "content/fr/projects_categories/thematiques/environnement/_index.html"
+          name: "Thématiques"
+          count: 2
+        - permalink: "/spectacles/thematiques/eveil/"
+          path: "/projects_categories/thematiques/eveil"
+          slug: "thematiques/eveil"
+          file: "content/fr/projects_categories/thematiques/eveil/_index.html"
+          name: "Thématiques"
+          count: 2
+        - permalink: "/spectacles/thematiques/patrimoine/"
+          path: "/projects_categories/thematiques/patrimoine"
+          slug: "thematiques/patrimoine"
+          file: "content/fr/projects_categories/thematiques/patrimoine/_index.html"
+          name: "Thématiques"
+          count: 2
+        - permalink: "/spectacles/thematiques/mythologie-s/"
+          path: "/projects_categories/thematiques/mythologie-s"
+          slug: "thematiques/mythologie-s"
+          file: "content/fr/projects_categories/thematiques/mythologie-s/_index.html"
+          name: "Thématiques"
+          count: 1
+        - permalink: "/spectacles/thematiques/relation-a-l-autre/"
+          path: "/projects_categories/thematiques/relation-a-l-autre"
+          slug: "thematiques/relation-a-l-autre"
+          file: "content/fr/projects_categories/thematiques/relation-a-l-autre/_index.html"
+          name: "Thématiques"
+          count: 1
+        - permalink: "/spectacles/thematiques/mort/"
+          path: "/projects_categories/thematiques/mort"
+          slug: "thematiques/mort"
+          file: "content/fr/projects_categories/thematiques/mort/_index.html"
+          name: "Thématiques"
+          count: 1
+        - permalink: "/spectacles/thematiques/paroles-de-femmes/"
+          path: "/projects_categories/thematiques/paroles-de-femmes"
+          slug: "thematiques/paroles-de-femmes"
+          file: "content/fr/projects_categories/thematiques/paroles-de-femmes/_index.html"
+          name: "Thématiques"
+          count: 3
+        - permalink: "/spectacles/thematiques/histoire-reelle/"
+          path: "/projects_categories/thematiques/histoire-reelle"
+          slug: "thematiques/histoire-reelle"
+          file: "content/fr/projects_categories/thematiques/histoire-reelle/_index.html"
+          name: "Thématiques"
+          count: 1
+
 
 
 ---
