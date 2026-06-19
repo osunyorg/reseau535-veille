@@ -2,7 +2,8 @@
 title: >-
   Les Intrépides
 
-
+subtitle: >-
+  L'Arbre Potager
 
 
 url: "/spectacles/2025-les-intrepides/"
@@ -15,7 +16,7 @@ meta:
     slug: "les-intrepides"
   dates:
     created_at: 2026-06-18T04:00:53+02:00
-    updated_at: 2026-06-18T18:00:59+02:00
+    updated_at: 2026-06-19T09:44:54+02:00
     published_at: 2026-06-18T04:00:53+02:00
 search:
   id: "37cfb8e2-ef01-4302-ba48-cd714232455a"
@@ -24,11 +25,11 @@ search:
   kind: "Communication::Website::Portfolio::Project::Localization"
   lang: "fr"
   title: >-
-    Les Intrépides
+    Les Intrépides L'Arbre Potager
   summary: >-
     <p>Une échappée au cœur de deux épisodes emblématiques de la mythologie grecque (Zeus, Poésidon, ..)</p>
   body: >-
-    <p>Création  <br> Informations  <br> Documentation  <br>   <br>Accéder à la documentation liée au spectacle</p>  <p>Dossier Drive <br>https://drive.google.com/drive/folders/1fH489Xvrr8fc5Hjv81-8zvgUFWtUIw88?usp=drive_link</p>  <p> Soutiens  <br> Teaser  <br>  </p>  <p>https://youtu.be/44w-3F2RyNM?si=KLkZpb1rDyCdeWdz <br>Les Intrépides - Teaser</p>  <p> Vie du spectacle  <br>   <br>15 janvier 2025 <br>Lieu : CSC La Blaiserie Opérateurs : CSC La Blaiserie État : Première Fin : 15 janvier 2025 Commentaire : 10h et 15h30</p>  <p>8 mars 2026 <br>Lieu : La Passerelle (86) Opérateurs : CDC Vallée du Clain État : Diffusion Fin : 8 mars 2026 Commentaire : Dans le cadre du Festival Quand on Conte</p>  <p> Lieux </p>  <p> Opérateurs </p>
+    <p>Présentation  <br>Sélection "Repère!" - Saison 26/27</p>  <p> Création  <br> Informations  <br> Documentation  <br>  </p>  <p>Dossier Drive <br>https://drive.google.com/drive/folders/1fH489Xvrr8fc5Hjv81-8zvgUFWtUIw88?usp=drive_link</p>  <p> Teaser  <br>  </p>  <p>https://youtu.be/44w-3F2RyNM?si=KLkZpb1rDyCdeWdz <br>Les Intrépides - Teaser</p>  <p> Vie du spectacle  <br>   <br>8 mars 2026 <br>Diffusion Dans le cadre du Festival Quand on Conte CDC Vallée du Clain Lieu : La Passerelle (86)</p>  <p>15 janvier 2025 <br>Première 10h et 15h30 CSC La Blaiserie Lieu : CSC La Blaiserie</p>  <p> Lieux </p>  <p> Opérateurs </p>
 
 breadcrumbs:
   - title: >-
@@ -65,6 +66,7 @@ projects_categories:
   - "disciplines/theatre-d-objets"
   - "disciplines/images"
   - "thematiques/mythologie-s"
+  - "etats/en-diffusion"
 taxonomies:
   - permalink: "/spectacles/disciplines/"
     path: "/projects_categories/disciplines"
@@ -100,12 +102,52 @@ taxonomies:
         name: >-
           Mythologies
 
+  - permalink: "/spectacles/etats/"
+    path: "/projects_categories/etats"
+    slug: "etats"
+    file: "content/fr/projects_categories/etats/_index.html"
+    name: >-
+      États
+    categories:
+      - permalink: "/spectacles/etats/en-diffusion/"
+        path: "/projects_categories/etats/en-diffusion"
+        slug: "etats/en-diffusion"
+        file: "content/fr/projects_categories/etats/en-diffusion/_index.html"
+        name: >-
+          En diffusion
+
 
 contents_reading_time:
-  seconds: 24
+  seconds: 20
   text: >-
     moins d'une minute
 contents:
+  - kind: block
+    template: chapter
+    title: >-
+      Présentation
+    slug: >-
+      presentation
+    ranks:
+      base: 2
+      self: 2
+    top:
+      active: true
+      title: 
+        value: >-
+          Présentation
+        heading: 2
+
+    data:
+      layout: no_background
+      text: >-
+        <p>Sélection "Repère!" - Saison 26/27</p>
+
+
+
+
+
+
   - kind: block
     template: title
     title: >-
@@ -190,7 +232,6 @@ contents:
         - ""
         - ""
       rows:
-        - ["Étape","En diffusion"]
         - ["Âge minimum","8 ans"]
         - ["Durée","60 minutes"]
 
@@ -223,13 +264,11 @@ contents:
     ranks:
       base: 3
     top:
-      active: true
-      description: >-
-        <p>Accéder à la documentation liée au spectacle</p>
+      active: false
+
     data:
-      layout: accent_background
-      text: >-
-        <p>Accéder à la documentation liée au spectacle</p>
+      layout: no_background
+
 
       buttons:
         - 
@@ -238,55 +277,6 @@ contents:
           url: >-
             https://drive.google.com/drive/folders/1fH489Xvrr8fc5Hjv81-8zvgUFWtUIw88?usp=drive_link
           target_blank: true
-
-
-  - kind: block
-    template: title
-    title: >-
-      Soutiens
-    slug: >-
-      soutiens
-    ranks:
-      base: 2
-      self: 2
-    top:
-      active: true
-      title: 
-        value: >-
-          Soutiens
-        heading: 2
-
-    data:
-      layout: classic
-
-
-  - kind: block
-    template: organizations
-
-
-    ranks:
-      base: 3
-      children: 3
-    top:
-      active: false
-
-    data:
-      layout: grid
-
-      options:
-        link: true
-        logo: true
-        summary: false
-        address: false
-        filters: false
-
-      organizations:
-        - permalink: "/organisations/csc-la-blaiserie/"
-          path: "/organizations/csc-la-blaiserie"
-          slug: "csc-la-blaiserie"
-          file: "content/fr/organizations/csc-la-blaiserie.html"
-
-      quantity: 1
 
 
   - kind: block
@@ -378,14 +368,14 @@ contents:
       events:
         - 
           title: >-
-            15 janvier 2025
-          text: >-
-            <p>Lieu : CSC La Blaiserie<br>Opérateurs : CSC La Blaiserie<br>État : Première<br>Fin : 15 janvier 2025<br>Commentaire : 10h et 15h30</p>
-        - 
-          title: >-
             8 mars 2026
           text: >-
-            <p>Lieu : La Passerelle (86)<br>Opérateurs : CDC Vallée du Clain<br>État : Diffusion<br>Fin : 8 mars 2026<br>Commentaire : Dans le cadre du Festival Quand on Conte</p>
+            <p>Diffusion<br>Dans le cadre du Festival Quand on Conte<br>CDC Vallée du Clain<br>Lieu : La Passerelle (86)</p>
+        - 
+          title: >-
+            15 janvier 2025
+          text: >-
+            <p>Première<br>10h et 15h30<br>CSC La Blaiserie<br>Lieu : CSC La Blaiserie</p>
 
 
   - kind: block
