@@ -21,7 +21,7 @@ params:
     index:
       layout: grid
       options:
-        categories: true
+        categories: false
         image: true
         subtitle: true
         summary: true
@@ -38,4 +38,4 @@ params:
           share: false
           taxonomies: true
           updated_at: false
-          with_labels: false
+          with_labels: true
