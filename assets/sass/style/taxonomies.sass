@@ -1,3 +1,20 @@
+.project-categories,
+.event-categories,
+.taxonomies
+    li
+        margin-bottom: space(2) !important
+        a
+            margin-right: 0
+            background: $color-accent
+            color: $color-text !important
+            text-transform: uppercase
+            font-size: pxToRem(13)
+            padding: space(1) space(3)
+            border-radius: 50px
+            text-decoration: none !important
+            &:hover
+                background: $color-text
+                color: $color-accent !important
 @include media-breakpoint-up(desktop)
     main
         .container
@@ -12,3 +29,7 @@
                     background: $color-background-alt
                     margin-left: $spacing-2
                     margin-right: 0
+.single-meta
+    li
+        a
+            color: $color-text

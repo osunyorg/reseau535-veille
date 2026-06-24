@@ -1,25 +1,15 @@
-.project-categories,
-.taxonomies
-    li
-        margin-bottom: space(2) !important
-        a
-            margin-right: 0
-            background: $color-accent
-            color: $color-text !important
-            text-transform: uppercase
-            font-size: pxToRem(13)
-            padding: space(1) space(3)
-            border-radius: 50px
-            text-decoration: none !important
-            &:hover
-                background: $color-text
-                color: $color-accent !important
-.projects--grid
-    .project
-        img
-            aspect-ratio: 2048 / 1446
-    @include media-breakpoint-up(xl)
-        grid-template-columns: repeat(3, 1fr)
+.projects
+    &--grid
+        .project
+            img
+                aspect-ratio: 2048 / 1446
+        @include media-breakpoint-up(xl)
+            grid-template-columns: repeat(3, 1fr)
+    &--large
+        @include media-breakpoint-up(desktop)
+            .project-categories
+                li
+                    display: inline-block !important
 .projects__page
     .hero
         .content
@@ -29,3 +19,38 @@
         .hero-text
             margin-top: 0
             padding-bottom: 0
+    @include media-breakpoint-up(desktop)
+        .hero
+            .content
+                align-items: center !important
+                flex-direction: column
+                text-align: center
+                .hero-text
+                    margin-left: auto
+                    margin-right: auto
+                    margin-bottom: $spacing-4
+                    text-align: center
+                    display: block
+                    p
+                        margin-top: $spacing-4
+                figure
+                    figcaption
+                        &:before
+                            background: none
+            &.hero--with-image
+                margin-bottom: space(40)
+                .content
+                    figure
+                        width: columns(6)
+                        margin-bottom: calc(#{-$spacing-7} + #{$spacing-4})
+                        .credit
+                            background: none                
+            .projects-taxonomies
+                justify-content: center
+        .breadcrumb-container
+            margin-left: auto
+            margin-right: auto
+            .breadcrumb
+                justify-content: center
+                padding-right: 0
+                margin-top: 0 !important

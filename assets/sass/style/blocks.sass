@@ -4,3 +4,25 @@
             a
                 &:first-child
                     color: white !important
+.block-agenda
+    &--list
+        &.block--option-image-false
+            @include in-page-with-sidebar
+                .event
+                    display: block
+                    .event-content
+                        display: grid
+                        grid-gap: 0 var(--grid-gutter)
+                        grid-template-columns: repeat(2, 1fr)
+                        .event-title
+                            grid-column: 2 / 2
+                            grid-row: 1
+                        .event-description,
+                            grid-column: 2 / 2
+                            grid-row: 2
+                        .event-schedule
+                            grid-column: 1 / 2
+                            grid-row: 1
+                        .event-categories
+                            grid-column: 2 / 2
+                            grid-row: 3

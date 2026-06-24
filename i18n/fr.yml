@@ -1,5 +1,5 @@
 backlinks:
-  events: Événements mentionnant {{ . }}
+  events: Agenda
   exhibitions: Expositions mentionnant {{ . }}
   pages: Pages mentionnant {{ . }}
   posts: Actualités mentionnant {{ . }}
