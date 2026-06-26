@@ -16,7 +16,7 @@ meta:
     slug: "reflet"
   dates:
     created_at: 2026-06-08T13:15:20+02:00
-    updated_at: 2026-06-19T09:43:15+02:00
+    updated_at: 2026-06-26T04:02:09+02:00
     published_at: 2026-06-11T13:18:06+02:00
 search:
   id: "4f58f558-15c9-420d-94ed-e83becb98f20"
@@ -29,7 +29,7 @@ search:
   summary: >-
     <p>En apesanteur sur ses rollers, Xuan LE, champion de freestyle slalom, nous emporte dans un flux d’énergie intense et méditatif, nous interrogeant sur nos origines et sur la relation que nous tissons avec le mouvement dans la vie.</p>
   body: >-
-    <p>Création  <br> Informations  <br> Vie du spectacle  <br>   <br>28 mars 2025 <br>Diffusion 20h30 CDC 4B Sud-Charente Lieu : Château de Barbezieux</p>  <p>9 mai 2024 - 10 mai 2024 <br>Diffusion 16h CDC Île de Ré Lieu : Esplanade de la Mer</p>  <p>20 octobre 2023 <br>Première 20h CDC la Rochefoucauld-Portes-du-Périgord Lieu : Les Carmes (16)</p>  <p> Lieux </p>  <p> Opérateurs </p>
+    <p>Création  <br> Informations  <br> Vie du spectacle  </p>
 
 breadcrumbs:
   - title: >-
@@ -107,7 +107,7 @@ taxonomies:
 
 
 contents_reading_time:
-  seconds: 14
+  seconds: 2
   text: >-
     moins d'une minute
 contents:
@@ -221,7 +221,7 @@ contents:
 
 
   - kind: block
-    template: timeline
+    template: agenda
 
 
     ranks:
@@ -231,116 +231,44 @@ contents:
       active: false
 
     data:
-      layout: vertical
+      mode: selection
+      kinds:
+        parent: false
+        child: true
+        recurring: true
+      options:
+        categories: true
+        dates: true
+        image: true
+        subtitle: false
+        summary: true
+        status: false
+
+      layout: list
+
+
+      title_link: ""
       events:
-        - 
-          title: >-
-            28 mars 2025
-          text: >-
-            <p>Diffusion<br>20h30<br>CDC 4B Sud-Charente<br>Lieu : Château de Barbezieux</p>
-        - 
-          title: >-
-            9 mai 2024 - 10 mai 2024
-          text: >-
-            <p>Diffusion<br>16h<br>CDC Île de Ré<br>Lieu : Esplanade de la Mer</p>
-        - 
-          title: >-
-            20 octobre 2023
-          text: >-
-            <p>Première<br>20h<br>CDC la Rochefoucauld-Portes-du-Périgord<br>Lieu : Les Carmes (16)</p>
-
-
-  - kind: block
-    template: organizations
-    title: >-
-      Lieux
-    slug: >-
-      lieux
-    ranks:
-      base: 3
-      self: 3
-      children: 4
-    top:
-      active: true
-      title: 
-        value: >-
-          Lieux
-        heading: 3
-
-    data:
-      layout: grid
-
-      options:
-        link: true
-        logo: true
-        summary: false
-        address: false
-        filters: false
-
-      organizations:
-        - permalink: "/organisations/chateau-de-barbezieux/"
-          path: "/organizations/chateau-de-barbezieux"
-          slug: "chateau-de-barbezieux"
-          file: "content/fr/organizations/chateau-de-barbezieux.html"
-
-        - permalink: "/organisations/esplanade-de-la-mer/"
-          path: "/organizations/esplanade-de-la-mer"
-          slug: "esplanade-de-la-mer"
-          file: "content/fr/organizations/esplanade-de-la-mer.html"
-
-        - permalink: "/organisations/les-carmes-16/"
-          path: "/organizations/les-carmes-16"
-          slug: "les-carmes-16"
-          file: "content/fr/organizations/les-carmes-16.html"
+        - permalink: "/agenda/2025/reflet/"
+          path: "/events/2025/03/28-reflet"
+          slug: "reflet"
+          file: "content/fr/events/2025/03/28-reflet.html"
+          name: >-
+            Reflet
+        - permalink: "/agenda/2024/reflet/"
+          path: "/events/2024/05/09-reflet"
+          slug: "reflet"
+          file: "content/fr/events/2024/05/09-reflet.html"
+          name: >-
+            Reflet
+        - permalink: "/agenda/2023/reflet/"
+          path: "/events/2023/10/20-reflet"
+          slug: "reflet"
+          file: "content/fr/events/2023/10/20-reflet.html"
+          name: >-
+            Reflet
 
       quantity: 3
-
-
-  - kind: block
-    template: organizations
-    title: >-
-      Opérateurs
-    slug: >-
-      operateurs
-    ranks:
-      base: 3
-      self: 3
-      children: 4
-    top:
-      active: true
-      title: 
-        value: >-
-          Opérateurs
-        heading: 3
-
-    data:
-      layout: grid
-
-      options:
-        link: true
-        logo: true
-        summary: false
-        address: false
-        filters: false
-
-      organizations:
-        - permalink: "/organisations/cdc-4b-sud-charente/"
-          path: "/organizations/cdc-4b-sud-charente"
-          slug: "cdc-4b-sud-charente"
-          file: "content/fr/organizations/cdc-4b-sud-charente.html"
-
-        - permalink: "/organisations/cdc-ile-de-re/"
-          path: "/organizations/cdc-ile-de-re"
-          slug: "cdc-ile-de-re"
-          file: "content/fr/organizations/cdc-ile-de-re.html"
-
-        - permalink: "/organisations/cdc-la-rochefoucauld-portes-du-perigord/"
-          path: "/organizations/cdc-la-rochefoucauld-portes-du-perigord"
-          slug: "cdc-la-rochefoucauld-portes-du-perigord"
-          file: "content/fr/organizations/cdc-la-rochefoucauld-portes-du-perigord.html"
-
-      quantity: 3
-
 
 
 ---
