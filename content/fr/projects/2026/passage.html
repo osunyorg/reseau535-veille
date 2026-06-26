@@ -16,7 +16,7 @@ meta:
     slug: "passage"
   dates:
     created_at: 2026-06-08T13:15:19+02:00
-    updated_at: 2026-06-19T09:44:52+02:00
+    updated_at: 2026-06-26T04:02:09+02:00
     published_at: 2026-06-11T13:18:05+02:00
 search:
   id: "498bd19b-ae95-476d-acdc-77f93a8dd757"
@@ -29,7 +29,7 @@ search:
   summary: >-
     <p>Passage repose sur une approche multidisciplinaire mêlant danse verticale, danse sur roller, et cirque. Les disciplines artistiques mobilisées incarnent les quatre éléments naturels : l'air, la terre, l'eau, le feu</p>
   body: >-
-    <p>Création  <br> Informations  <br> Documentation  <br>  </p>  <p>Dossier Drive <br>https://drive.google.com/drive/folders/1pkFD97tJRYSDuQ-nh4vehQRY_Qe4VVst?usp=drive_link</p>  <p> Soutiens  <br> Vie du spectacle  <br>   <br>16 octobre 2026 <br>Résidence Sortie de résidence le 16 octobre 2026 à 18h30 CDC 4B Sud-Charente Lieu : Château de Barbezieux</p>  <p>6 avril 2026 - 10 avril 2026 <br>Résidence Sortie de résidence le 10 avril 2026 à 15h CCN Mille Plateaux Lieu : Chapelle Fromentin</p>  <p> Lieux </p>  <p> Opérateurs </p>
+    <p>Création  <br> Informations  <br> Documentation  <br>  </p>  <p>Dossier Drive <br>https://drive.google.com/drive/folders/1pkFD97tJRYSDuQ-nh4vehQRY_Qe4VVst?usp=drive_link</p>  <p> Soutiens  <br> Vie du spectacle  </p>
 
 breadcrumbs:
   - title: >-
@@ -125,7 +125,7 @@ taxonomies:
 
 
 contents_reading_time:
-  seconds: 17
+  seconds: 5
   text: >-
     moins d'une minute
 contents:
@@ -334,7 +334,7 @@ contents:
 
 
   - kind: block
-    template: timeline
+    template: agenda
 
 
     ranks:
@@ -344,101 +344,38 @@ contents:
       active: false
 
     data:
-      layout: vertical
+      mode: selection
+      kinds:
+        parent: false
+        child: true
+        recurring: true
+      options:
+        categories: true
+        dates: true
+        image: true
+        subtitle: false
+        summary: true
+        status: false
+
+      layout: list
+
+
+      title_link: ""
       events:
-        - 
-          title: >-
-            16 octobre 2026
-          text: >-
-            <p>Résidence<br>Sortie de résidence le 16 octobre 2026 à 18h30<br>CDC 4B Sud-Charente<br>Lieu : Château de Barbezieux</p>
-        - 
-          title: >-
-            6 avril 2026 - 10 avril 2026
-          text: >-
-            <p>Résidence<br>Sortie de résidence le 10 avril 2026 à 15h<br>CCN Mille Plateaux<br>Lieu : Chapelle Fromentin</p>
-
-
-  - kind: block
-    template: organizations
-    title: >-
-      Lieux
-    slug: >-
-      lieux
-    ranks:
-      base: 3
-      self: 3
-      children: 4
-    top:
-      active: true
-      title: 
-        value: >-
-          Lieux
-        heading: 3
-
-    data:
-      layout: grid
-
-      options:
-        link: true
-        logo: true
-        summary: false
-        address: false
-        filters: false
-
-      organizations:
-        - permalink: "/organisations/chapelle-fromentin/"
-          path: "/organizations/chapelle-fromentin"
-          slug: "chapelle-fromentin"
-          file: "content/fr/organizations/chapelle-fromentin.html"
-
-        - permalink: "/organisations/chateau-de-barbezieux/"
-          path: "/organizations/chateau-de-barbezieux"
-          slug: "chateau-de-barbezieux"
-          file: "content/fr/organizations/chateau-de-barbezieux.html"
+        - permalink: "/agenda/2026/passage-1/"
+          path: "/events/2026/10/16-passage-1"
+          slug: "passage-1"
+          file: "content/fr/events/2026/10/16-passage-1.html"
+          name: >-
+            Passage
+        - permalink: "/agenda/2026/passage/"
+          path: "/events/2026/04/06-passage"
+          slug: "passage"
+          file: "content/fr/events/2026/04/06-passage.html"
+          name: >-
+            Passage
 
       quantity: 2
-
-
-  - kind: block
-    template: organizations
-    title: >-
-      Opérateurs
-    slug: >-
-      operateurs
-    ranks:
-      base: 3
-      self: 3
-      children: 4
-    top:
-      active: true
-      title: 
-        value: >-
-          Opérateurs
-        heading: 3
-
-    data:
-      layout: grid
-
-      options:
-        link: true
-        logo: true
-        summary: false
-        address: false
-        filters: false
-
-      organizations:
-        - permalink: "/organisations/ccn-mille-plateaux/"
-          path: "/organizations/ccn-mille-plateaux"
-          slug: "ccn-mille-plateaux"
-          file: "content/fr/organizations/ccn-mille-plateaux.html"
-
-        - permalink: "/organisations/cdc-4b-sud-charente/"
-          path: "/organizations/cdc-4b-sud-charente"
-          slug: "cdc-4b-sud-charente"
-          file: "content/fr/organizations/cdc-4b-sud-charente.html"
-
-      quantity: 2
-
 
 
 ---
