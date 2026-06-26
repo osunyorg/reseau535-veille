@@ -16,7 +16,7 @@ meta:
     slug: "clim"
   dates:
     created_at: 2026-06-08T13:15:14+02:00
-    updated_at: 2026-06-19T09:43:08+02:00
+    updated_at: 2026-06-26T04:02:03+02:00
     published_at: 2026-06-11T13:18:00+02:00
 search:
   id: "612925ad-7cb3-4feb-8694-2bdaf75a24eb"
@@ -29,7 +29,7 @@ search:
   summary: >-
     <p>CLIM est une forme brute, hybride, parlée et dansée. CLIM est une femme. CLIM est cruelle et capitalise sur le changement climatique. CLIM est une réflexion sur les boucles de rétroactions, les cercles infernaux et les mécanismes de pensée qui régissent notre monde jusqu’à l’absurde.</p>
   body: >-
-    <p>Création  <br> Informations  <br> Soutiens  <br> Vie du spectacle  <br>   <br>29 mars 2021 <br>Résidence Lezay (79) - Sortie de résidence le 29 mars 2021 à 11h Réseau 535, Scènes Nomades Lieu : Salle des fêtes</p>  <p> Lieux </p>  <p> Opérateurs </p>
+    <p>Création  <br> Informations  <br> Soutiens  <br> Vie du spectacle  </p>
 
 breadcrumbs:
   - title: >-
@@ -114,7 +114,7 @@ taxonomies:
 
 
 contents_reading_time:
-  seconds: 10
+  seconds: 2
   text: >-
     moins d'une minute
 contents:
@@ -282,7 +282,7 @@ contents:
 
 
   - kind: block
-    template: timeline
+    template: agenda
 
 
     ranks:
@@ -292,91 +292,32 @@ contents:
       active: false
 
     data:
-      layout: vertical
-      events:
-        - 
-          title: >-
-            29 mars 2021
-          text: >-
-            <p>Résidence<br>Lezay (79) - Sortie de résidence le 29 mars 2021 à 11h<br>Réseau 535, Scènes Nomades<br>Lieu : Salle des fêtes</p>
-
-
-  - kind: block
-    template: organizations
-    title: >-
-      Lieux
-    slug: >-
-      lieux
-    ranks:
-      base: 3
-      self: 3
-      children: 4
-    top:
-      active: true
-      title: 
-        value: >-
-          Lieux
-        heading: 3
-
-    data:
-      layout: grid
-
+      mode: selection
+      kinds:
+        parent: false
+        child: true
+        recurring: true
       options:
-        link: true
-        logo: true
-        summary: false
-        address: false
-        filters: false
+        categories: true
+        dates: true
+        image: true
+        subtitle: false
+        summary: true
+        status: false
 
-      organizations:
-        - permalink: "/organisations/salle-des-fetes/"
-          path: "/organizations/salle-des-fetes"
-          slug: "salle-des-fetes"
-          file: "content/fr/organizations/salle-des-fetes.html"
+      layout: list
+
+
+      title_link: ""
+      events:
+        - permalink: "/agenda/2021/clim/"
+          path: "/events/2021/03/29-clim"
+          slug: "clim"
+          file: "content/fr/events/2021/03/29-clim.html"
+          name: >-
+            CLIM
 
       quantity: 1
-
-
-  - kind: block
-    template: organizations
-    title: >-
-      Opérateurs
-    slug: >-
-      operateurs
-    ranks:
-      base: 3
-      self: 3
-      children: 4
-    top:
-      active: true
-      title: 
-        value: >-
-          Opérateurs
-        heading: 3
-
-    data:
-      layout: grid
-
-      options:
-        link: true
-        logo: true
-        summary: false
-        address: false
-        filters: false
-
-      organizations:
-        - permalink: "/organisations/reseau-535/"
-          path: "/organizations/reseau-535"
-          slug: "reseau-535"
-          file: "content/fr/organizations/reseau-535.html"
-
-        - permalink: "/organisations/scenes-nomades/"
-          path: "/organizations/scenes-nomades"
-          slug: "scenes-nomades"
-          file: "content/fr/organizations/scenes-nomades.html"
-
-      quantity: 2
-
 
 
 ---

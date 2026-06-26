@@ -16,7 +16,7 @@ meta:
     slug: "brady-1"
   dates:
     created_at: 2026-06-08T13:11:53+02:00
-    updated_at: 2026-06-19T09:43:06+02:00
+    updated_at: 2026-06-26T04:02:02+02:00
     published_at: 2026-06-11T13:17:58+02:00
 search:
   id: "2be69cc1-9198-43c6-aa99-85e553d58d2c"
@@ -29,7 +29,7 @@ search:
   summary: >-
     <p>Spectacle sur le syndrome de la Havane, avec un lévrier !</p>
   body: >-
-    <p>Création  <br> Informations  <br> Soutiens  <br> Vie du spectacle  <br>   <br>21 novembre 2024 <br>Première 20h30 SCIN La Mégisserie Lieu : Amphithéâtre de la Mégisserie</p>  <p>16 septembre 2024 - 27 septembre 2024 <br>Résidence OARA Lieu : MECA</p>  <p>2 septembre 2024 - 6 septembre 2024 <br>Résidence SCIN La Mégisserie Lieu : Amphithéâtre de la Mégisserie</p>  <p>15 avril 2024 - 19 avril 2024 <br>Résidence Sortie de résidence le 19 avril 2024 à 18h30 SCIN S’Il vous Plait Lieu : Théâtre de Thouars</p>  <p>5 février 2024 - 9 février 2024 <br>Résidence SCIN Théâtre du Cloître Lieu : SCIN Théâtre du Cloître</p>  <p>8 janvier 2024 - 12 janvier 2024 <br>Résidence Les 3 Théâtres (3T) Lieu : Théâtre Blossac</p>  <p> Lieux </p>  <p> Opérateurs </p>
+    <p>Création  <br> Informations  <br> Soutiens  <br> Vie du spectacle  </p>
 
 breadcrumbs:
   - title: >-
@@ -111,9 +111,9 @@ taxonomies:
 
 
 contents_reading_time:
-  seconds: 33
+  seconds: 2
   text: >-
-    1 minute
+    moins d'une minute
 contents:
   - kind: block
     template: title
@@ -293,7 +293,7 @@ contents:
 
 
   - kind: block
-    template: timeline
+    template: agenda
 
 
     ranks:
@@ -303,151 +303,62 @@ contents:
       active: false
 
     data:
-      layout: vertical
+      mode: selection
+      kinds:
+        parent: false
+        child: true
+        recurring: true
+      options:
+        categories: true
+        dates: true
+        image: true
+        subtitle: false
+        summary: true
+        status: false
+
+      layout: list
+
+
+      title_link: ""
       events:
-        - 
-          title: >-
-            21 novembre 2024
-          text: >-
-            <p>Première<br>20h30<br>SCIN La Mégisserie<br>Lieu : Amphithéâtre de la Mégisserie</p>
-        - 
-          title: >-
-            16 septembre 2024 - 27 septembre 2024
-          text: >-
-            <p>Résidence<br>OARA<br>Lieu : MECA</p>
-        - 
-          title: >-
-            2 septembre 2024 - 6 septembre 2024
-          text: >-
-            <p>Résidence<br>SCIN La Mégisserie<br>Lieu : Amphithéâtre de la Mégisserie</p>
-        - 
-          title: >-
-            15 avril 2024 - 19 avril 2024
-          text: >-
-            <p>Résidence<br>Sortie de résidence le 19 avril 2024 à 18h30<br>SCIN S’Il vous Plait<br>Lieu : Théâtre de Thouars</p>
-        - 
-          title: >-
-            5 février 2024 - 9 février 2024
-          text: >-
-            <p>Résidence<br>SCIN Théâtre du Cloître<br>Lieu : SCIN Théâtre du Cloître</p>
-        - 
-          title: >-
-            8 janvier 2024 - 12 janvier 2024
-          text: >-
-            <p>Résidence<br>Les 3 Théâtres (3T)<br>Lieu : Théâtre Blossac</p>
+        - permalink: "/agenda/2024/brady/"
+          path: "/events/2024/11/21-brady"
+          slug: "brady"
+          file: "content/fr/events/2024/11/21-brady.html"
+          name: >-
+            Brady
+        - permalink: "/agenda/2024/brady-4/"
+          path: "/events/2024/09/16-brady-4"
+          slug: "brady-4"
+          file: "content/fr/events/2024/09/16-brady-4.html"
+          name: >-
+            Brady
+        - permalink: "/agenda/2024/brady-5/"
+          path: "/events/2024/09/02-brady-5"
+          slug: "brady-5"
+          file: "content/fr/events/2024/09/02-brady-5.html"
+          name: >-
+            Brady
+        - permalink: "/agenda/2024/brady-3/"
+          path: "/events/2024/04/15-brady-3"
+          slug: "brady-3"
+          file: "content/fr/events/2024/04/15-brady-3.html"
+          name: >-
+            Brady
+        - permalink: "/agenda/2024/brady-1/"
+          path: "/events/2024/02/05-brady-1"
+          slug: "brady-1"
+          file: "content/fr/events/2024/02/05-brady-1.html"
+          name: >-
+            Brady
+        - permalink: "/agenda/2024/brady-2/"
+          path: "/events/2024/01/08-brady-2"
+          slug: "brady-2"
+          file: "content/fr/events/2024/01/08-brady-2.html"
+          name: >-
+            Brady
 
-
-  - kind: block
-    template: organizations
-    title: >-
-      Lieux
-    slug: >-
-      lieux
-    ranks:
-      base: 3
-      self: 3
-      children: 4
-    top:
-      active: true
-      title: 
-        value: >-
-          Lieux
-        heading: 3
-
-    data:
-      layout: grid
-
-      options:
-        link: true
-        logo: true
-        summary: false
-        address: false
-        filters: false
-
-      organizations:
-        - permalink: "/organisations/amphitheatre-de-la-megisserie/"
-          path: "/organizations/amphitheatre-de-la-megisserie"
-          slug: "amphitheatre-de-la-megisserie"
-          file: "content/fr/organizations/amphitheatre-de-la-megisserie.html"
-
-        - permalink: "/organisations/meca/"
-          path: "/organizations/meca"
-          slug: "meca"
-          file: "content/fr/organizations/meca.html"
-
-        - permalink: "/organisations/scin-theatre-du-cloitre/"
-          path: "/organizations/scin-theatre-du-cloitre"
-          slug: "scin-theatre-du-cloitre"
-          file: "content/fr/organizations/scin-theatre-du-cloitre.html"
-
-        - permalink: "/organisations/theatre-blossac/"
-          path: "/organizations/theatre-blossac"
-          slug: "theatre-blossac"
-          file: "content/fr/organizations/theatre-blossac.html"
-
-        - permalink: "/organisations/theatre-de-thouars/"
-          path: "/organizations/theatre-de-thouars"
-          slug: "theatre-de-thouars"
-          file: "content/fr/organizations/theatre-de-thouars.html"
-
-      quantity: 5
-
-
-  - kind: block
-    template: organizations
-    title: >-
-      Opérateurs
-    slug: >-
-      operateurs
-    ranks:
-      base: 3
-      self: 3
-      children: 4
-    top:
-      active: true
-      title: 
-        value: >-
-          Opérateurs
-        heading: 3
-
-    data:
-      layout: grid
-
-      options:
-        link: true
-        logo: true
-        summary: false
-        address: false
-        filters: false
-
-      organizations:
-        - permalink: "/organisations/les-3-theatres-3t/"
-          path: "/organizations/les-3-theatres-3t"
-          slug: "les-3-theatres-3t"
-          file: "content/fr/organizations/les-3-theatres-3t.html"
-
-        - permalink: "/organisations/oara/"
-          path: "/organizations/oara"
-          slug: "oara"
-          file: "content/fr/organizations/oara.html"
-
-        - permalink: "/organisations/scin-la-megisserie/"
-          path: "/organizations/scin-la-megisserie"
-          slug: "scin-la-megisserie"
-          file: "content/fr/organizations/scin-la-megisserie.html"
-
-        - permalink: "/organisations/scin-s-il-vous-plait/"
-          path: "/organizations/scin-s-il-vous-plait"
-          slug: "scin-s-il-vous-plait"
-          file: "content/fr/organizations/scin-s-il-vous-plait.html"
-
-        - permalink: "/organisations/scin-theatre-du-cloitre/"
-          path: "/organizations/scin-theatre-du-cloitre"
-          slug: "scin-theatre-du-cloitre"
-          file: "content/fr/organizations/scin-theatre-du-cloitre.html"
-
-      quantity: 5
-
+      quantity: 6
 
 
 ---
