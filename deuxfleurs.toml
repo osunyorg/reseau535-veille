@@ -14,3 +14,15 @@ for = ["**/*.png", "**/*.jpg", "**/*.jpeg", "**/*.gif", "**/*.webp"]
 [headers.values]
 Cache-Control = "max-age=31536000, no-transform, public"
 
+[[redirects]]
+from = "/agenda/etat/residence-1/index.html"
+to = "/agenda/etat/residence/"
+
+[[redirects]]
+from = "/agenda/etat/diffusion-1/index.html"
+to = "/agenda/etat/diffusion/"
+
+[[redirects]]
+from = "/agenda/etat/premiere-1/index.html"
+to = "/agenda/etat/premiere/"
+
