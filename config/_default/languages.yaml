@@ -9,6 +9,18 @@ fr:
   buildFuture: true
   params:
     contact_details:
+      emails:
+        email:
+          label: >-
+            contact@reseau535.fr
+          value: >-
+            mailto:contact@reseau535.fr
+      social_networks:
+        linkedin:
+          label: >-
+            reseau-535
+          value: >-
+            https://www.linkedin.com/company/reseau-535/
 
   taxonomies:
     administrator: administrators
